@@ -1,34 +1,33 @@
-baseurl = "https://demo.gethugothemes.com/parsa/examplesite/"
+baseurl = "https://mikedixson.com/parsa/examplesite/"
 googleAnalytics = ""
-languageCode = "en-us"
+languageCode = "en-gb"
 paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
-title = "Parsa Hugo | Personal Blog Template"
+title = "Mike Dixson"
 [markup.goldmark.renderer]
 unsafe = true
+[[menu.main]]
+hasChildren = true
+name = "Homepage"
+url = ""
+weight = 1
 [[menu.main]]
 name = "Homepage 1"
 parent = "Homepage"
 url = "homepage/home-1/"
-weight = 1
 [[menu.main]]
 name = "Homepage 2"
 parent = "Homepage"
 url = "homepage/home-2/"
-weight = 2
-[[menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 3
 [[menu.main]]
 name = "About"
 url = "about/"
 weight = 2
 [[menu.main]]
-hasChildren = true
-name = "Homepage"
-weight = 1
+name = "Contact"
+url = "contact/"
+weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
@@ -80,9 +79,6 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-[[params.social]]
-icon = "ti-facebook"
-link = "https://facebook.com/themefisher"
 [[params.social]]
 icon = "ti-twitter-alt"
 link = "#"
