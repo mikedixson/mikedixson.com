@@ -1,7 +1,7 @@
 # default config
-baseurl = "https://demo.gethugothemes.com/parsa/examplesite/"
-languageCode = "en-us"
-title = "Parsa Hugo | Personal Blog Template"
+baseurl = "https://mikedixson.com/"
+languageCode = "en-gb"
+title = "MikeDixson.com"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
@@ -50,33 +50,43 @@ link = "plugins/search/search.js"
 # navigation
 [[menu.main]]
 name = "Homepage"
-url = ""
+url = "/"
 weight = 1
-hasChildren = true
+#hasChildren = true
+
+#[[menu.main]]
+#parent = "Homepage"
+#name = "Homepage 1"
+#url = "homepage/home-1/"
+
+#[[menu.main]]
+#parent = "Homepage"
+#name = "Homepage 2"
+#url = "homepage/home-2/"
 
 [[menu.main]]
-parent = "Homepage"
-name = "Homepage 1"
-url = "homepage/home-1/"
+name = "Art"
+url = "art/"
+weight = 2
 
 [[menu.main]]
-parent = "Homepage"
-name = "Homepage 2"
-url = "homepage/home-2/"
+name = "Music"
+url = "music/"
+weight = 3
 
 [[menu.main]]
 name = "About"
 url = "about/"
-weight = 2
+weight = 4
 
 [[menu.main]]
 name = "Contact"
 url = "contact/"
-weight = 3
+weight = 5
 
 # deult parameter
 [params]
-logo = "images/logo.png"
+logo = "/images/Mike Dixson-logos_transparent-sm2-cropped.png"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "1"
@@ -87,13 +97,13 @@ preloader = true
 # search
 search = true
 # about author
-author = "John Doe"
+author = "Mike Dixson"
 author_image = "images/banner-img.png"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+bio = "Infrastructure Engineer, Singer/Songwriter, Photographer and Multipotentialite"
 # Contact info
-mobile = "+90 000 333 22"
-email = "exmaple@ymail.com"
-address = "6 rip carl Avenue CA 90733"
+mobile = ""
+email = ""
+address = ""
 # Contact Form Action
 contact_form_action = "#"
 # copyright
@@ -112,11 +122,11 @@ expire_days = 2
 # social site
 [[params.social]]
 icon = "ti-facebook"
-link = "https://facebook.com/themefisher"
+link = "https://facebook.com/mikedixson"
 
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/mikedixson"
 
 [[params.social]]
 icon = "ti-linkedin"
@@ -124,4 +134,4 @@ link = "#"
 
 [[params.social]]
 icon = "ti-github"
-link = "#"
+link = "https://github.com/mikedixson"
