@@ -69,12 +69,13 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_REGION: ${{ secrets.AWS_REGION }}
+      S3_BUCKET_NAME: ${{ env.S3_BUCKET_NAME }}
     steps:
         - name: Upload to S3 bucket
           run: |
-            aws s3 sync ./ s3://${{ secrets.S3_BUCKET_NAME }}
+            aws s3 sync ./ s3://$S3_BUCKET_NAME 
         - name: echo bucket name
-          run: echo ${{ secrets.S3_BUCKET_NAME }}
+          run: echo $S3_BUCKET_NAME
   
   # # Deployment job
   # deploy:
