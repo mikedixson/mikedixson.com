@@ -105,3 +105,5 @@ One of the most useful prompt techniques I've found is to give the model a chanc
 For example "Answer as an aws expert. What is the optimal way to set up a new VPC for ECS containers to run in at large scale. Ask up to 3 questions to clarify"
 
 This approach often gives better answers but also, some of the questions asked back can be things you may not have thought about.
+
+I'll do a full post just focussed on investigating prompt engineering in the future.
