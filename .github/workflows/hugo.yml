@@ -77,13 +77,13 @@ jobs:
       run: |
         wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
         && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+    - name: Checkout
+      uses: actions/checkout@v4
     - name: Download artifact
       uses: actions/download-artifact@v4
       with:
         name: public
         path: ./public
-    - name: Checkout
-      uses: actions/checkout@v4
     - name: Deploy Site to S3
       run: |
         hugo \
