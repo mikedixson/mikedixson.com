@@ -9,6 +9,7 @@ summaryLength = "8"
 paginate = 8
 # google analytics
 googleAnalytics = "UA-9565268-4" # example : UA-123-45
+canonifyURLs = true
 
 [permalinks]
   post = "/:slug/"
