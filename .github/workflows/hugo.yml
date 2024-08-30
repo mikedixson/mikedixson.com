@@ -82,6 +82,8 @@ jobs:
       with:
         name: public
         path: ./public
+    - name: Checkout
+      uses: actions/checkout@v4
     - name: Deploy Site to S3
       run: |
         hugo \
