@@ -73,6 +73,8 @@ jobs:
         - name: Upload to S3 bucket
           run: |
             aws s3 sync ./ s3://${{ secrets.S3_BUCKET_NAME }}
+        - name: echo bucket name
+          run: echo ${{ secrets.S3_BUCKET_NAME }}
           
   # # Deployment job
   # deploy:
