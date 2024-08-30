@@ -107,3 +107,5 @@ For example "Answer as an aws expert. What is the optimal way to set up a new VP
 This approach often gives better answers but also, some of the questions asked back can be things you may not have thought about.
 
 I'll do a full post just focussed on investigating prompt engineering in the future.
+
+Mike
