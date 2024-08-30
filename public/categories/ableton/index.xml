@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ableton on MikeDixson.com</title>
+    <link>https://mikedixson.com/categories/ableton/</link>
+    <description>Recent content in Ableton on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 25 Jul 2020 15:31:03 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/categories/ableton/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixed: Obelisk not working in Ableton Live</title>
+      <link>https://mikedixson.com/fixed-obelisk-not-working-in-ableton-live/</link>
+      <pubDate>Sat, 25 Jul 2020 15:31:03 +0000</pubDate>
+      <guid>https://mikedixson.com/fixed-obelisk-not-working-in-ableton-live/</guid>
+      <description>&lt;p&gt;So when using the Frozen Plains Obelisk plugin in Ableton live 10 (I’m running10.1.15) following Frozen Plains instructions doesn’t work.&lt;br&gt;&#xA;If you change the 2nd drop down on the synth/instrument track to Obelisk64 instead of Pre FX then it will work.&lt;/p&gt;&#xA;&lt;p&gt;Additionally, if you don’t want record a whole extra midi track for the Obelisk track then instead of arming both track, just set to Obelisk track to In on the monitoring and then arm the instrument you want to record. This has the added benefit of being able to easily have multiple instruments using Obelisk and switch to record on whichever one you want to play&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; width=&#34;285&#34; height=&#34;568&#34; src=&#34;https://mikedixson.com/wp-content/uploads/2020/07/image.png&#34; alt=&#34;Ideal Obelisk and instrument settings.&#xA;Obelisk midi track set to monitor In.&#xA;Two different mini instrument tracks set to Obelisk64 instrument In and Obelisk64 instead of Pre FX or Post FX. One instrument track armed.&#34; class=&#34;wp-image-835&#34; srcset=&#34;https://mikedixson.com/wp-content/uploads/2020/07/image.png 285w, https://mikedixson.com/wp-content/uploads/2020/07/image-151x300.png 151w&#34; sizes=&#34;(max-width: 285px) 100vw, 285px&#34; /&gt; &lt;/figure&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Musical Instrument Frequency Range Chart</title>
+      <link>https://mikedixson.com/musical-instrument-frequency-range-chart/</link>
+      <pubDate>Mon, 20 Jul 2020 16:21:12 +0000</pubDate>
+      <guid>https://mikedixson.com/musical-instrument-frequency-range-chart/</guid>
+      <description>&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;img loading=&#34;lazy&#34; width=&#34;1008&#34; height=&#34;1584&#34; src=&#34;https://mikedixson.com/wp-content/uploads/2020/07/music_instruments_frequencies.gif?fit=604%2C949&amp;ssl=1&#34; alt=&#34;&#34; class=&#34;wp-image-832&#34; /&gt;&lt;/figure&gt; &#xA;&lt;p&gt;It looks like the original website is now unavailable and so I’m posting this here to share as the only other place it’s online it bloody Pinterest&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

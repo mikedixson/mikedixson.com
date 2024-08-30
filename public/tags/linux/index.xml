@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/linux/</link>
+    <description>Recent content in Linux on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 11 Mar 2017 17:33:16 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Display content of files with filenames</title>
+      <link>https://mikedixson.com/display-content-of-files-with-filenames/</link>
+      <pubDate>Sat, 11 Mar 2017 17:33:16 +0000</pubDate>
+      <guid>https://mikedixson.com/display-content-of-files-with-filenames/</guid>
+      <description>&lt;p&gt;Use the following linux command to display the contents of several files with their filenames prefixed.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;tail -n +1 file1.txt file2.txt file3.txt&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Displays as&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;span class=&amp;quot;s1&amp;quot;&amp;gt;==&amp;gt; file1.txt &amp;lt;==&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;File 1 contents&lt;/p&gt;&#xA;&lt;p&gt;==&amp;gt; file2.txt &amp;lt;==&lt;/p&gt;&#xA;&lt;p&gt;File 3 contents&lt;/p&gt;&#xA;&lt;p&gt;==&amp;gt; file3.txt &amp;lt;==&lt;/p&gt;&#xA;&lt;p&gt;File 3 contents&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.vecteezy.com/free-vector/computer&#34;&gt;Computer Vectors by Vecteezy&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Remove comments and empty lines with grep</title>
+      <link>https://mikedixson.com/remove-comments-and-empty-lines-with-grep/</link>
+      <pubDate>Tue, 03 Nov 2015 17:00:17 +0000</pubDate>
+      <guid>https://mikedixson.com/remove-comments-and-empty-lines-with-grep/</guid>
+      <description>&lt;p&gt;Remove comments and empty lines with grep&lt;/p&gt;&#xA;&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;grep -v -e ^# -e ^$ filename&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Configuring Radius Authentication on Linux</title>
+      <link>https://mikedixson.com/configuring-radius-authentication-on-linux/</link>
+      <pubDate>Tue, 02 Sep 2014 08:39:39 +0000</pubDate>
+      <guid>https://mikedixson.com/configuring-radius-authentication-on-linux/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Install libpam-radius-auth&lt;br&gt;&#xA;&lt;code&gt;sudo apt-get install libpam-radius-auth&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Configure libpam-radius-auth with your radius servers and secrets&lt;br&gt;&#xA;&lt;code&gt;sudo pico /etc/pam_radius_auth.conf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Set permissions on /etc/pam_radius_auth.conf&lt;br&gt;&#xA;&lt;code&gt;sudo chmod 0600 /etc/pam_radius_auth.conf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;auth sufficient pam_radius_auth.so&lt;/code&gt; to &lt;code&gt;/etc/pam.d/login&lt;/code&gt; and then the following as desired just &lt;strong&gt;above&lt;/strong&gt; the line reading &lt;em&gt;@include common-auth&lt;/em&gt;&lt;br&gt;&#xA;&lt;code&gt;/etc/pam.d/sshd&amp;lt;br /&amp;gt; /etc/pam.d/sudo&amp;lt;br /&amp;gt; /etc/pam.d/su&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add try_first_pass to auth line in /etc/pam.d/common-auth&lt;br&gt;&#xA;&lt;code&gt;auth [success=1 default=ignore] pam_unix.so nullok_secure try_first_pass&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Make user locally with disabled password&lt;br&gt;&#xA;&lt;code&gt;sudo useradd -m USERNAME&lt;/code&gt;&lt;br&gt;&#xA;or to add a user and add to the sudo group&lt;br&gt;&#xA;&lt;code&gt;sudo useradd -m -G sudo USERNAME&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Ta Da!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The one caveat that I’ve found with this is that when logging in with local users &lt;span style=&#34;color: #000000;&#34;&gt;to the local console&lt;/span&gt; you are prompted for a password twice, this is fixed via step 5 but note that if you run pam-auth-update this change will be overwritten.&lt;/em&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>How to install Google Chrome in Ubuntu</title>
+      <link>https://mikedixson.com/how-to-install-google-chrome-in-ubuntu/</link>
+      <pubDate>Thu, 14 Aug 2014 15:21:53 +0000</pubDate>
+      <guid>https://mikedixson.com/how-to-install-google-chrome-in-ubuntu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&#34; title=&#34;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&#34;&gt;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>FIXED: Ubuntu Not Seeing More Than 2TB of a Disk</title>
+      <link>https://mikedixson.com/fixed-ubuntu-not-seeing-more-than-2tb-of-a-disk/</link>
+      <pubDate>Mon, 04 Aug 2014 10:16:42 +0000</pubDate>
+      <guid>https://mikedixson.com/fixed-ubuntu-not-seeing-more-than-2tb-of-a-disk/</guid>
+      <description>&lt;h1 id=&#34;warning-backup-your-data-before-proceeding&#34;&gt;WARNING! Backup your data before proceeding!&lt;/h1&gt;&#xA;&lt;p&gt;For me this process didn’t destroy the data. I completely expected it to, but it didn’t. Make sure you backup in case you’re not as fortunate.&lt;/p&gt;&#xA;&lt;p&gt;Move into Single Users Mode&lt;br&gt;&#xA;&lt;code&gt;sudo init 1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Unmount partition in question&lt;br&gt;&#xA;&lt;code&gt;sudo umount /mnt/disk1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Launch PartEd pointing at the disk in question&lt;br&gt;&#xA;&lt;code&gt;sudo parted /dev/sdb&amp;lt;br /&amp;gt; &lt;/code&gt;&lt;br&gt;&#xA;Make the Partition Table GPT&lt;br&gt;&#xA;&lt;code&gt;mklabel gpt&amp;lt;br /&amp;gt; &lt;/code&gt;&lt;br&gt;&#xA;Accept the warning and quit PartEd&lt;br&gt;&#xA;&lt;code&gt;Warning: The existing disk label on /dev/sdb will be destroyed and all data on this disk will be lost. Do you want to continue?&amp;lt;br /&amp;gt; Yes/No? yes&amp;lt;br /&amp;gt; (parted)&amp;lt;br /&amp;gt; quit&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Check the disk (resize2fs required this before it would resize the partition)&lt;br&gt;&#xA;&lt;code&gt;sudo e2fsck -f /dev/sdb1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Resize the partition to fill the total available disk space&lt;br&gt;&#xA;&lt;code&gt;sudo resize2fs /dev/sdb1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mount the disk again&lt;br&gt;&#xA;&lt;code&gt;sudo mount /mnt/disk1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;and-hey-presto&#34;&gt;And hey presto!&lt;/h2&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

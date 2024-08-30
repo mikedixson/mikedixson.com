@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openssl on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/openssl/</link>
+    <description>Recent content in Openssl on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 12 Aug 2016 15:13:41 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/openssl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Useful SSL Certificate Creation and Management Tool</title>
+      <link>https://mikedixson.com/useful-ssl-certificate-creation-and-management-tool/</link>
+      <pubDate>Fri, 12 Aug 2016 15:13:41 +0000</pubDate>
+      <guid>https://mikedixson.com/useful-ssl-certificate-creation-and-management-tool/</guid>
+      <description>&lt;p&gt;After years of mastering many OpenSSL commands to create and convert SSL certificate some one has made a nice wrapper around OpenSSL&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/xca/&#34;&gt;https://sourceforge.net/projects/xca/&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

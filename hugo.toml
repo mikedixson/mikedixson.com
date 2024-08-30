@@ -1,0 +1,201 @@
+# default config
+ baseurl = "https://mikedixson.com/"
+# baseurl = "http://mikedixsoncom.s3-website.eu-west-2.amazonaws.com/"
+# baseurl ="https://d1u9kh7lst1f6a.cloudfront.net/"
+languageCode = "en-gb"
+title = "MikeDixson.com"
+theme = "parsa-hugo"
+summaryLength = "8"
+paginate = 8
+# google analytics
+googleAnalytics = "UA-9565268-4" # example : UA-123-45
+
+[permalinks]
+  post = "/:slug/"
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/headroom/headroom.js"
+[[params.plugins.js]]
+link = "plugins/instafeed/instafeed.min.js"
+[[params.plugins.js]]
+link = "plugins/masonry/masonry.js"
+[[params.plugins.js]]
+link = "plugins/reading-time/readingTime.min.js"
+[[params.plugins.js]]
+link = "plugins/smooth-scroll/smooth-scroll.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+# navigation
+[[menu.main]]
+name = "Homepage"
+url = "/"
+weight = 1
+#hasChildren = true
+
+[[menu.main]]
+name = "Art"
+url = "art/"
+weight = 2
+
+#[[menu.main]]
+#name = "Music"
+#url = "music/"
+#weight = 3
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 4
+
+[[menu.main]]
+name = "Contact"
+url = "contact/"
+weight = 5
+
+# deult parameter
+[params]
+logo = "/images/Mike Dixson-logos_transparent-sm2-cropped.png"
+home = "Home"
+# theme layout ( two layout is available, "1" and "2" )
+layout = "1"
+# Meta data
+description = "This is meta description"
+# Preloader
+preloader = true
+# search
+search = true
+# about author
+author = "Mike Dixson"
+author_image = "images/banner-img.png"
+bio = "Infrastructure Engineer, Singer/Songwriter, Photographer and Multipotentialite"
+# Contact info
+mobile = ""
+email = ""
+address = ""
+# Contact Form Action
+contact_form_action = "#"
+# copyright
+copyright = "Copyright &copy; 2020 a theme by [themefisher.com](https://themefisher.com)"
+
+# Instagram feed
+[params.instafeed]
+enable = true
+access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 5
+
+# social site
+[[params.social]]
+icon = "ti-facebook"
+link = "https://facebook.com/mikedixson"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/mikedixson"
+
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/in/mikedixson/"
+
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/mikedixson"
+
+# Disqus
+disqusShortname = 'mikedixson'
+
+[deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "s3"
+# The Go Cloud Development Kit URL to deploy to. Examples:
+# GCS; see https://gocloud.dev/howto/blob/#gcs
+# URL = "gs://<Bucket Name>"
+
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+ URL = "s3://mikedixsoncom"
+
+# Azure Blob Storage; see https://gocloud.dev/howto/blob/#azure
+# URL = "azblob://$web"
+
+# You can use a "prefix=" query parameter to target a subfolder of the bucket:
+# URL = "gs://<Bucket Name>?prefix=a/subfolder/"
+
+# If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
+cloudFrontDistributionID = "EI7PBBW28LFH5"
+
+# Optionally, you can include or exclude specific files.
+# See https://godoc.org/github.com/gobwas/glob#Glob for the glob pattern syntax.
+# If non-empty, the pattern is matched against the local path.
+# All paths are matched against in their filepath.ToSlash form.
+# If exclude is non-empty, and a local or remote file's path matches it, that file is not synced.
+# If include is non-empty, and a local or remote file's path does not match it, that file is not synced.
+# As a result, local files that don't pass the include/exclude filters are not uploaded to remote,
+# and remote files that don't pass the include/exclude filters are not deleted.
+# include = "**.html" # would only include files with ".html" suffix
+# exclude = "**.{jpg, png}" # would exclude files with ".jpg" or ".png" suffix
+
+
+# [[deployment.matchers]] configure behavior for files that match the Pattern.
+# See https://golang.org/pkg/regexp/syntax/ for pattern syntax.
+# Pattern searching is stopped on first match.
+
+# Samples:
+
+[[deployment.matchers]]
+# Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+# Set custom content type for /sitemap.xml
+pattern = "^sitemap\\.xml$"
+contentType = "application/xml"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true

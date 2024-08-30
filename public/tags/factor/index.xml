@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Factor on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/factor/</link>
+    <description>Recent content in Factor on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 27 Nov 2014 12:08:03 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/factor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOLVED: Spotify desktop client communication failed</title>
+      <link>https://mikedixson.com/solved-spotify-desktop-client-communication-failed/</link>
+      <pubDate>Thu, 27 Nov 2014 12:08:03 +0000</pubDate>
+      <guid>https://mikedixson.com/solved-spotify-desktop-client-communication-failed/</guid>
+      <description>&lt;p&gt;If you receive the message &lt;strong&gt;Spotify desktop client communicat&lt;wbr /&gt;ion failed&lt;/strong&gt; when trying to &lt;strong&gt;Login with Facebook&lt;/strong&gt; to the Spotify app here’s why and how to fix it.&lt;/p&gt;&#xA;&lt;h1 id=&#34;reason&#34;&gt;Reason&lt;/h1&gt;&#xA;&lt;p&gt;It was because I have 2 factor security turned on.&lt;/p&gt;&#xA;&lt;h2 id=&#34;resolution&#34;&gt;Resolution&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;Go to &lt;/span&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;&lt;a href=&#34;https://www.facebook.com/settings?tab=security&amp;#038;view&#34;&gt;&lt;a href=&#34;https://www.facebook.com/settings?tab=security&amp;amp;view&#34;&gt;https://www.facebook.com/settings?tab=security&amp;amp;view&lt;/a&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;On the line App Passwords click &lt;strong&gt;Edit&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;Click the &lt;strong&gt;Generate App Passwords&lt;/strong&gt; link&lt;/span&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;Click the &lt;strong&gt;Generate App Passwords&lt;/strong&gt; button&lt;/span&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;Enter a friendly name for what this is for i.e. Spotify&lt;/span&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;Click &lt;strong&gt;Generate Password&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;Copy the password in the &lt;strong&gt;normal&lt;/strong&gt; spotify logon password box.&lt;/span&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;enter your FB email address as the username.&lt;/span&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;span style=&#34;line-height: 15px;&#34;&gt;HEY PRESTO!&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

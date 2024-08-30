@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exchange Online on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/exchange-online/</link>
+    <description>Recent content in Exchange Online on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 08 Mar 2018 09:35:22 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/exchange-online/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powershell list all properties of an object</title>
+      <link>https://mikedixson.com/powershell-list-all-properties-of-an-object/</link>
+      <pubDate>Thu, 08 Mar 2018 09:35:22 +0000</pubDate>
+      <guid>https://mikedixson.com/powershell-list-all-properties-of-an-object/</guid>
+      <description>&lt;p&gt;Some powershell get commands only output a handful of the object properties get-CalendarProcessing being one such command, than returns just one property.&lt;/p&gt;&#xA;&lt;p&gt;To get all properties of an object you can pipe to format-list *&lt;br&gt;&#xA;&lt;code&gt;get-CalendarProcessing -identity room1@domain.com | Format-List *&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you know the specific attribute you are after you can still access this variable using select-object.&lt;br&gt;&#xA;&lt;code&gt;get-CalendarProcessing -Identity room1@domain.com | Select-Object AllowConflicts&lt;/code&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

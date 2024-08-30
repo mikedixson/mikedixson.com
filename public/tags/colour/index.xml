@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Colour on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/colour/</link>
+    <description>Recent content in Colour on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 22 Apr 2015 08:43:05 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/colour/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Sheets Alternate Row Colour</title>
+      <link>https://mikedixson.com/google-sheets-alternate-row-colour/</link>
+      <pubDate>Wed, 22 Apr 2015 08:43:05 +0000</pubDate>
+      <guid>https://mikedixson.com/google-sheets-alternate-row-colour/</guid>
+      <description>&lt;p&gt;You can use &lt;strong&gt;conditional formatting&lt;/strong&gt; and either, or both of these &lt;strong&gt;Custom Formulas&lt;/strong&gt; to colour alternate rows:&lt;br&gt;&#xA;&lt;code&gt;=ISODD(ROW())&lt;/code&gt;&lt;br&gt;&#xA;&lt;code&gt;=ISEVEN(ROW())&lt;/code&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

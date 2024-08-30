@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How To on MikeDixson.com</title>
+    <link>https://mikedixson.com/categories/how-to/</link>
+    <description>Recent content in How To on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 31 Aug 2015 18:16:15 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solution: Wacom Intuos Pen and Touch Pressure Sensitivity in Photoshop</title>
+      <link>https://mikedixson.com/solution-wacom-intuos-pen-and-touch-pressure-sensitivity-in-photoshop/</link>
+      <pubDate>Mon, 31 Aug 2015 18:16:15 +0000</pubDate>
+      <guid>https://mikedixson.com/solution-wacom-intuos-pen-and-touch-pressure-sensitivity-in-photoshop/</guid>
+      <description>&lt;p&gt;So in order to use pressure sensitivity in Photoshop you &lt;strong&gt;MUST&lt;/strong&gt; have &lt;strong&gt;Use Windows Ink&lt;/strong&gt; enabled.&lt;/p&gt;&#xA;&lt;figure id=&#34;attachment_579&#34; aria-describedby=&#34;caption-attachment-579&#34; style=&#34;width: 564px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;a href=&#34;http://mikedixson.com/2015/08/solution-wacom-intuos-pen-and-touch-pressure-sensitivity-in-photoshop/usewindowslink/&#34; rel=&#34;attachment wp-att-579&#34;&gt;&lt;img loading=&#34;lazy&#34; class=&#34;size-full wp-image-579&#34; src=&#34;https://mikedixson.com/wp-content/uploads/2015/08/useWindowsLink.png&#34; alt=&#34;Wacom Control Panel use Windows Link&#34; width=&#34;564&#34; height=&#34;498&#34; srcset=&#34;https://mikedixson.com/wp-content/uploads/2015/08/useWindowsLink.png 564w, https://mikedixson.com/wp-content/uploads/2015/08/useWindowsLink-300x265.png 300w&#34; sizes=&#34;(max-width: 564px) 100vw, 564px&#34; /&gt;&lt;/a&gt;&lt;figcaption id=&#34;caption-attachment-579&#34; class=&#34;wp-caption-text&#34;&gt;Wacom Control Panel use Windows Link&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;p&gt;But without it no pressure sensitivity at all and in Brush Dynamics the pen control option just gives you an exclamation mark next to it.&lt;/p&gt;&#xA;&lt;p&gt;Update: I’ve upgraded one of my machines to Windows 10 and Windows Ink doesn’t seem necessary on that one for pressure sensitivity.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Weekend Project: Battery Powered Sonos Play:1</title>
+      <link>https://mikedixson.com/weekend-project-battery-powered-sonos-play1/</link>
+      <pubDate>Sat, 16 May 2015 11:17:42 +0000</pubDate>
+      <guid>https://mikedixson.com/weekend-project-battery-powered-sonos-play1/</guid>
+      <description>&lt;p&gt;Following this video guide and the step up booster converter from ebay below I’m going to make a Sonos Play:1 battery powered so I can enjoy some lovely music on the balcony over the summer.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.ebay.co.uk/itm/XL6009-DC-DC-Voltage-Step-Up-Boost-Converter-replace-LM2577-3-32v-input-UK-Fast-/400858208676&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;http://www.ebay.co.uk/itm/XL6009-DC-DC-Voltage-Step-Up-Boost-Converter-replace-LM2577-3-32v-input-UK-Fast-/400858208676&#34;&gt;http://www.ebay.co.uk/itm/XL6009-DC-DC-Voltage-Step-Up-Boost-Converter-replace-LM2577-3-32v-input-UK-Fast-/400858208676&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Cisco How To Find A MAC Address By IP</title>
+      <link>https://mikedixson.com/cisco-how-to-find-a-mac-address-by-ip/</link>
+      <pubDate>Thu, 02 Apr 2015 11:07:31 +0000</pubDate>
+      <guid>https://mikedixson.com/cisco-how-to-find-a-mac-address-by-ip/</guid>
+      <description>&lt;p&gt;From a switch that the device is plugged directly into (otherwise you’ll get the MAC of the next hop) first ping the IP address to ensure it’s in your ARP cache, then view the ARP cache, like so&lt;br&gt;&#xA;&lt;code&gt;ping 192.168.1.1&lt;/code&gt;&lt;br&gt;&#xA;&lt;code&gt;show ip arp | i 192.168.1.1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;The &lt;em&gt;pipe i&lt;/em&gt; just ensures you only see the info you’re after. If you’re doing this on a switch with many devices it’s handy to pear it down to just what you need.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Configuring Radius Authentication on Linux</title>
+      <link>https://mikedixson.com/configuring-radius-authentication-on-linux/</link>
+      <pubDate>Tue, 02 Sep 2014 08:39:39 +0000</pubDate>
+      <guid>https://mikedixson.com/configuring-radius-authentication-on-linux/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Install libpam-radius-auth&lt;br&gt;&#xA;&lt;code&gt;sudo apt-get install libpam-radius-auth&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Configure libpam-radius-auth with your radius servers and secrets&lt;br&gt;&#xA;&lt;code&gt;sudo pico /etc/pam_radius_auth.conf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Set permissions on /etc/pam_radius_auth.conf&lt;br&gt;&#xA;&lt;code&gt;sudo chmod 0600 /etc/pam_radius_auth.conf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;auth sufficient pam_radius_auth.so&lt;/code&gt; to &lt;code&gt;/etc/pam.d/login&lt;/code&gt; and then the following as desired just &lt;strong&gt;above&lt;/strong&gt; the line reading &lt;em&gt;@include common-auth&lt;/em&gt;&lt;br&gt;&#xA;&lt;code&gt;/etc/pam.d/sshd&amp;lt;br /&amp;gt; /etc/pam.d/sudo&amp;lt;br /&amp;gt; /etc/pam.d/su&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add try_first_pass to auth line in /etc/pam.d/common-auth&lt;br&gt;&#xA;&lt;code&gt;auth [success=1 default=ignore] pam_unix.so nullok_secure try_first_pass&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Make user locally with disabled password&lt;br&gt;&#xA;&lt;code&gt;sudo useradd -m USERNAME&lt;/code&gt;&lt;br&gt;&#xA;or to add a user and add to the sudo group&lt;br&gt;&#xA;&lt;code&gt;sudo useradd -m -G sudo USERNAME&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Ta Da!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The one caveat that I’ve found with this is that when logging in with local users &lt;span style=&#34;color: #000000;&#34;&gt;to the local console&lt;/span&gt; you are prompted for a password twice, this is fixed via step 5 but note that if you run pam-auth-update this change will be overwritten.&lt;/em&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>How to install Google Chrome in Ubuntu</title>
+      <link>https://mikedixson.com/how-to-install-google-chrome-in-ubuntu/</link>
+      <pubDate>Thu, 14 Aug 2014 15:21:53 +0000</pubDate>
+      <guid>https://mikedixson.com/how-to-install-google-chrome-in-ubuntu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&#34; title=&#34;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&#34;&gt;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

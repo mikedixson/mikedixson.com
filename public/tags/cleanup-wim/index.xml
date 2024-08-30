@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cleanup-Wim on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/cleanup-wim/</link>
+    <description>Recent content in Cleanup-Wim on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 17 Aug 2018 12:57:22 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/cleanup-wim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dism.exe Cleaning Up Invalid Images</title>
+      <link>https://mikedixson.com/dism-exe-cleaning-up-invalid-images/</link>
+      <pubDate>Fri, 17 Aug 2018 12:57:22 +0000</pubDate>
+      <guid>https://mikedixson.com/dism-exe-cleaning-up-invalid-images/</guid>
+      <description>&lt;p&gt;After finishing editing and wim image using dism I was being left with Windows still thinking the image was still mounted somehow and not able to remount the image file.&lt;br&gt;&#xA;Thanks to a &lt;a href=&#34;https://trueliarx.blogspot.com/2014/07/force-unmount-and-clean-up-of-wim-image.html#comment-form&#34;&gt;post&lt;/a&gt; &lt;a href=&#34;https://trueliarx.blogspot.com/2014/07/force-unmount-and-clean-up-of-wim-image.html#comment-form&#34;&gt;here&lt;/a&gt; I finally managed to resolve the issue by deleting keys under “HKLM\SOFTWARE\Microsoft\WIMMount\mounted images&amp;amp;#8221;&lt;/p&gt;&#xA;&lt;p&gt;Next I just need to find how to be able to delete the folders ProgramData\Microsoft\Windows\SystemData underneath the root of a mounted image after it’s been unmounted. Windows is locking them but there are no handles open to them&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

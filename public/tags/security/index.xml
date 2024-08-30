@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/security/</link>
+    <description>Recent content in Security on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 18 Dec 2015 19:03:06 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exporting Active Directory Users Into CSV</title>
+      <link>https://mikedixson.com/exporting-active-directory-users-into-csv/</link>
+      <pubDate>Fri, 18 Dec 2015 19:03:06 +0000</pubDate>
+      <guid>https://mikedixson.com/exporting-active-directory-users-into-csv/</guid>
+      <description>&lt;p&gt;It took far too long to find this very very useful command online so I thought I’d repost to help others find it.&lt;br&gt;&#xA;The below command exports as follows:&lt;br&gt;&#xA;Connection to server: domain.local&lt;br&gt;&#xA;Exporting attributes: whenChanged,whenCreated,cn,sAMAccountName,givenName,sn&lt;br&gt;&#xA;From DN Root: DC=domain,DC=local&lt;br&gt;&#xA;Into File: domain.local-users.csv&lt;br&gt;&#xA;&lt;code&gt;csvde -s domain.local -l &amp;quot;whenChanged,whenCreated,cn,sAMAccountName,givenName,sn&amp;quot; -d &amp;quot;DC=domain,DC=local&amp;quot; -f domain.local-users.csv&lt;/code&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Turning the Human Firewall On – The Analogies Project</title>
+      <link>https://mikedixson.com/turning-the-human-firewall-on-the-analogies-project/</link>
+      <pubDate>Thu, 30 Apr 2015 10:41:42 +0000</pubDate>
+      <guid>https://mikedixson.com/turning-the-human-firewall-on-the-analogies-project/</guid>
+      <description>&lt;p&gt;Interesting course as part of Infosec 2015.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a title=&#34;How to Turn the Human Firewall On: Analogies Project Training Course&#34; href=&#34;http://www.infosecurityeurope.com/en/education/training/Analogies-Project/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;http://www.infosecurityeurope.com/en/education/training/Analogies-Project/&#34;&gt;http://www.infosecurityeurope.com/en/education/training/Analogies-Project/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Activating an iPhone or iPad Through a Firewall</title>
+      <link>https://mikedixson.com/activating-an-iphone-or-ipad-through-a-firewall/</link>
+      <pubDate>Wed, 29 Jan 2014 12:02:16 +0000</pubDate>
+      <guid>https://mikedixson.com/activating-an-iphone-or-ipad-through-a-firewall/</guid>
+      <description>&lt;p&gt;In order to activate an IOS device when behind a firewall allow the following traffic&lt;/p&gt;&#xA;&lt;pre&gt;https 17.149.240.70 nwk-unbrick2.apple.com&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Photo: Security security security</title>
+      <link>https://mikedixson.com/photo-security-security-security/</link>
+      <pubDate>Sun, 02 Jun 2013 15:07:40 +0000</pubDate>
+      <guid>https://mikedixson.com/photo-security-security-security/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mikedixson.com/wp-content/uploads/2013/06/wpid-IMG_20130602_153627.jpg&#34;&gt;&lt;img title=&#34;IMG_20130602_153627.jpg&#34; class=&#34;alignnone size-full&#34; alt=&#34;image&#34; src=&#34;https://mikedixson.com/wp-content/uploads/2013/06/wpid-IMG_20130602_153627.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;3 locks seems a little excessive. Though there is room for a decadent fourth.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

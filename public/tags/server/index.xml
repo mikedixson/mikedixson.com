@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/server/</link>
+    <description>Recent content in Server on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 27 Nov 2018 13:14:06 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOLVED: Windows DHCP – Search for a MAC Address</title>
+      <link>https://mikedixson.com/windows-dhcp-search-for-a-mac-address/</link>
+      <pubDate>Tue, 27 Nov 2018 13:14:06 +0000</pubDate>
+      <guid>https://mikedixson.com/windows-dhcp-search-for-a-mac-address/</guid>
+      <description>&lt;p&gt;This is a super succinct method of finding a mac address on a Window s DHCP server: &lt;a href=&#34;https://thewayeye.net/2016/10/8/find-a-mac-microsoft-dhcp&#34;&gt;https://thewayeye.net/2016/10/8/find-a-mac-microsoft-dhcp&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;Get-DhcpServerv4Scope | Get-DhcpServerv4Lease -EA SilentlyContinue -ClientId xx-xx-xx-xx-xx-xx&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Fixed: phpMyAdmin is throwing a #2002 cannot log in to the mysql server phpmyadmin</title>
+      <link>https://mikedixson.com/fixed-phpmyadmin-is-throwing-a-2002-cannot-log-in-to-the-mysql-server-phpmyadmin/</link>
+      <pubDate>Wed, 06 Aug 2014 14:48:46 +0000</pubDate>
+      <guid>https://mikedixson.com/fixed-phpmyadmin-is-throwing-a-2002-cannot-log-in-to-the-mysql-server-phpmyadmin/</guid>
+      <description>&lt;p&gt;This one had me going round the houses a bit until I the wrong permissions confirmed something to me.&lt;br&gt;&#xA;Firstly the &lt;code&gt;/etc/phpmyadmin/config.inc.php&lt;/code&gt; file is crud. For some reason this file doesn’t resemble the actual config file that you should use.&lt;br&gt;&#xA;The file &lt;code&gt;/usr/share/phpmyadmin/config.sample.inc.php&lt;/code&gt; is the format that you need for a correct phpMyAdmin configuration, so copy it to &lt;code&gt;/etc/phpmyadmin/config.inc.php&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Next you need to edit this config file. This isn’t the hardest of the things in the world to do if you just want the basics. You just need to edit the value for &lt;code&gt;$cfg[&#39;Servers&#39;][$i][&#39;host&#39;]&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once you’ve done that you can then login to phpMyAdmin using your mySQL credentials and get started.&lt;br&gt;&#xA;It will bitch about not having the advanced features enabled. To do this follow the blog post I did at &lt;a href=&#34;http://mikedixson.com/2014/08/installing-phpmyadmin-advanced-features-on-ubuntu/&#34; title=&#34;INSTALLING PHPMYADMIN ADVANCED FEATURES ON UBUNTU&#34;&gt;INSTALLING PHPMYADMIN ADVANCED FEATURES ON UBUNTU&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Make sure you log out and back in to pick up the changes.&lt;/p&gt;&#xA;&lt;p&gt;Enjoy,&lt;br&gt;&#xA;Mike&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Mac OS X’s Hidden FTP Server</title>
+      <link>https://mikedixson.com/mac-os-xs-hidden-ftp-server/</link>
+      <pubDate>Mon, 27 Jan 2014 14:51:32 +0000</pubDate>
+      <guid>https://mikedixson.com/mac-os-xs-hidden-ftp-server/</guid>
+      <description>&lt;p&gt;Seeing as there is already the capability to run a built in ftp server on OS X why bother downloading and potentially paying for one?&lt;/p&gt;&#xA;&lt;h2 id=&#34;starting-the-os-x-ftp-server&#34;&gt;Starting the OS X FTP Server&lt;/h2&gt;&#xA;&lt;pre&gt;sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist&lt;/pre&gt;&#xA;&lt;h2 id=&#34;stopping-the-os-x-ftp-server&#34;&gt;Stopping the OS X FTP Server&lt;/h2&gt;&#xA;&lt;pre&gt;sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist&lt;/pre&gt;&#xA;&lt;p&gt;You could even easily knock up an Automator app to start and stop this (sod it I might even make one myself).&lt;/p&gt;&#xA;&lt;p&gt;Sourced from: &lt;a href=&#34;http://osxdaily.com/2011/09/29/start-an-ftp-or-sftp-server-in-mac-os-x-lion/&#34;&gt;http://osxdaily.com/2011/09/29/start-an-ftp-or-sftp-server-in-mac-os-x-lion/&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Fixed – Jira: An internal server error occurred when requesting resource</title>
+      <link>https://mikedixson.com/jira-an-internal-server-error-occurred-when-requesting-resource-fixed/</link>
+      <pubDate>Wed, 24 Jul 2013 09:15:23 +0000</pubDate>
+      <guid>https://mikedixson.com/jira-an-internal-server-error-occurred-when-requesting-resource-fixed/</guid>
+      <description>&lt;h1 id=&#34;jira-gadget-error&#34;&gt;Jira Gadget Error&lt;/h1&gt;&#xA;&lt;p&gt;At work we use Atlassian’s Jira as our support ticket tracking tool.&lt;br&gt;&#xA;Recently we experienced an issue where all Gadgets on the dashboards gave the error: An internal server error occurred when requesting resource&lt;/p&gt;&#xA;&lt;h1 id=&#34;8220an-internal-server-error-occurred-when-requesting-resource8221-solution-8211-for-us&#34;&gt;“An internal server error occurred when requesting resource” Solution – for us&lt;/h1&gt;&#xA;&lt;p&gt;The solution for us was to extend the drive that housed the home directory for Jira. This has become full and this was adversely affecting gadget rendering. Likely because the temporary working directory is within the home directory.&lt;/p&gt;&#xA;&lt;p&gt;Hope that helps some other Jira users out there.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

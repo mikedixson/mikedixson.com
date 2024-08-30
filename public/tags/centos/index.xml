@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Centos on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/centos/</link>
+    <description>Recent content in Centos on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 16 Jan 2019 11:58:04 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOLVED: Yum 503 Service Unavailable</title>
+      <link>https://mikedixson.com/solved-yum-503-service-unavailable/</link>
+      <pubDate>Wed, 16 Jan 2019 11:58:04 +0000</pubDate>
+      <guid>https://mikedixson.com/solved-yum-503-service-unavailable/</guid>
+      <description>&lt;p&gt;This post was an absolute life save, Yum was being blocked by our application aware firewall Palo Alto&lt;figure class=&#34;wp-block-embed-reddit wp-block-embed is-type-rich is-provider-reddit&#34;&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;wp-block-embed__wrapper&#34;&gt;&#xA;  &lt;blockquote class=&#34;reddit-card&#34; &gt;&#xA;    &lt;a href=&#34;https://www.reddit.com/r/CentOS/comments/6pmvfv/centos_6_need_help_with_yum_errno_14/?ref_source=embed&amp;ref=share&#34;&gt;[CentOS 6] Need help with yum (Errno 14)&lt;/a&gt; from &lt;a href=&#34;https://www.reddit.com/r/CentOS/&#34;&gt;CentOS&lt;/a&gt;&#xA;  &lt;/blockquote&gt;&#xA;&lt;/div&gt;&lt;/figure&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.vecteezy.com/free-vector/eating&#34;&gt;Eating Vectors by Vecteezy&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

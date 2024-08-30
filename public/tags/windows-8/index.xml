@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows 8 on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/windows-8/</link>
+    <description>Recent content in Windows 8 on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 27 Jun 2013 07:30:25 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/windows-8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 8 Browsers in Modern UI aka Metro Mode</title>
+      <link>https://mikedixson.com/windows-8-browsers-in-modern-ui-aka-metro-mode/</link>
+      <pubDate>Thu, 27 Jun 2013 07:30:25 +0000</pubDate>
+      <guid>https://mikedixson.com/windows-8-browsers-in-modern-ui-aka-metro-mode/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; class=&#34;alignleft size-full wp-image-263&#34; alt=&#34;browser icons&#34; src=&#34;https://mikedixson.com/wp-content/uploads/2013/06/browser-icons.jpg&#34; width=&#34;300&#34; height=&#34;150&#34; /&gt;Since getting my Nexus 10 I used my laptop less and less. It largely comes out for research activities which involve a lot of switching between apps or browser windows or typing heavy activities where a keyboard is preferable to a touch screen, and I don’t lose half the screen to the keyboard.&lt;/p&gt;&#xA;&lt;h1 id=&#34;metro-sorry-modern-ui&#34;&gt;Metro, sorry, Modern UI&lt;/h1&gt;&#xA;&lt;p&gt;I upgraded my laptop to Windows 8 not long before getting my Nexus 10. I’ve got used to most things with the Modern UI and some apps being Desktop apps, however after change Google Chrome to launch in Metro/Modern UI mode I noticed that Internet Explorer was then opening on the desktop instead of in the Modern UI. I changed this back, but then Chrome opened in Desktop mode.&lt;br&gt;&#xA;Seemingly the browser that is the default browser and opens http(s) links is the one that opens in the Modern UI.&lt;/p&gt;&#xA;&lt;h1 id=&#34;just-one-browser&#34;&gt;Just One Browser?&lt;/h1&gt;&#xA;&lt;p&gt;I’m very surprised by Microsoft to be so small minded to think that users will only use one browser and so will be happy with just one opening in Modern UI. As someone who does some web design and troubleshooting of html and css I regularly use the main four browsers. I seems my choice to have all with the same experience is to set all to open in the desktop mode. Surely that’s not what Microsoft wants.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

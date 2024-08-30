@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/google/</link>
+    <description>Recent content in Google on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 08 Oct 2015 14:33:15 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exporting your Google Stars to CSV or KML</title>
+      <link>https://mikedixson.com/exporting-your-google-stars/</link>
+      <pubDate>Thu, 08 Oct 2015 14:33:15 +0000</pubDate>
+      <guid>https://mikedixson.com/exporting-your-google-stars/</guid>
+      <description>&lt;p&gt;I’m part of the Google Local Guides and a question came up amongst our cohort about being able to export your Stars from Google maps into something useful you can then import elsewhere. For example being able to import by Name, longitude and latitude would allow you to import into Google My Maps.&lt;/p&gt;&#xA;&lt;p&gt;You can visit Google Bookmarks and download an html file of your bookmarks, but it’s a relatively useless Netscape Bookmark format. So to convert this to a useful CSV file I’ve devise this linux script using sed and awk:&lt;/p&gt;&#xA;&lt;h2 id=&#34;csv-export&#34;&gt;CSV Export&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;for i in `sed -ne &#39;s/.*\(http[^&amp;quot;]*\).*/\1/p&#39; &amp;lt; GoogleBookmarks.html`; do curl -sL $i | awk &#39;{split($0,a,&amp;quot;[&amp;quot;)}; {split(a[21],b,&amp;quot;,&amp;quot;); printf b[2]}; {split(a[4],c,&amp;quot;,&amp;quot;); print &amp;quot;,&amp;quot;,c[2],&amp;quot;,&amp;quot;,c[3]}&#39; | sed &#39;s/\&amp;quot;//g&#39; | sed &#39;s/\]//g&#39; | awk &#39;!/, , /&#39; &amp;gt;&amp;gt; googbook.csv; done&lt;/code&gt;&lt;br&gt;&#xA;This will output the Name, Longitude and Latitude to a CSV file.&lt;/p&gt;&#xA;&lt;p&gt;To spit out the full address too use the following:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;for i in `sed -ne &#39;s/.*\(http[^&amp;quot;]*\).*/\1/p&#39; &amp;lt; GoogleBookmarks.html`; do curl -sL $i | awk &#39;{split($0,a,&amp;quot;[&amp;quot;)}; {split(a[21],b,&amp;quot;,&amp;quot;); printf b[2]; printf &amp;quot;\&amp;quot;,\&amp;quot;&amp;quot;; printf b[3]; printf b[4]}; {split(a[4],c,&amp;quot;,&amp;quot;); print &amp;quot;,&amp;quot;,c[2],&amp;quot;,&amp;quot;,c[3]}&#39; | sed &#39;s/\]//g&#39; | awk &#39;!/\&amp;quot;,\&amp;quot;, ,/&#39; &amp;gt;&amp;gt; googbook.csv;; done;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;kml-export&#34;&gt;KML Export&lt;/h2&gt;&#xA;&lt;p&gt;Visit &lt;a href=&#34;http://gexport.somee.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;http://gexport.somee.com/&#34;&gt;http://gexport.somee.com/&lt;/a&gt;&lt;/a&gt; upload your GoogleBookmarks.html file and then download the KML file (easy peasy).&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Google&#43; For the Win!</title>
+      <link>https://mikedixson.com/google-for-the-win/</link>
+      <pubDate>Tue, 26 May 2015 17:40:40 +0000</pubDate>
+      <guid>https://mikedixson.com/google-for-the-win/</guid>
+      <description>&lt;p&gt;Last month Google+ introduced Collections &lt;a href=&#34;https://plus.google.com/collections/welcome&#34;&gt;https://plus.google.com/collections/welcome&lt;/a&gt;&lt;br&gt;&#xA;A devilishly simple way to group your posts by topic.&lt;/p&gt;&#xA;&lt;p&gt;When you create a Collection you set the audience, so you can have private collections for posts on a topic to share with a particular audience, or you can have public collections that anyone can follow.&lt;/p&gt;&#xA;&lt;p&gt;This is a brilliant move on Google’s part. Users can follow topic from a user, rather than every little thing they posts. It’s so simple to share with a collection too, so it’s a win for those posting the content.&lt;/p&gt;&#xA;&lt;p&gt;Another win is that posts by content are so reader friendly that the take up on followers is very good.&lt;/p&gt;&#xA;&lt;p&gt;Google+ is becoming my favourite place to post stuff to now, and a great place for a Global community instead of just posting stuff amongst your friends and family. The Internet is the world, not just the people you already know.&lt;/p&gt;&#xA;&lt;p&gt;I hope more and more of you come round to Google+, and if you don’t, well you’ll be missing out but you won’t be missed, there’s a whole world of people out there.&lt;/p&gt;&#xA;&lt;p&gt;Mike&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Google Sheets Alternate Row Colour</title>
+      <link>https://mikedixson.com/google-sheets-alternate-row-colour/</link>
+      <pubDate>Wed, 22 Apr 2015 08:43:05 +0000</pubDate>
+      <guid>https://mikedixson.com/google-sheets-alternate-row-colour/</guid>
+      <description>&lt;p&gt;You can use &lt;strong&gt;conditional formatting&lt;/strong&gt; and either, or both of these &lt;strong&gt;Custom Formulas&lt;/strong&gt; to colour alternate rows:&lt;br&gt;&#xA;&lt;code&gt;=ISODD(ROW())&lt;/code&gt;&lt;br&gt;&#xA;&lt;code&gt;=ISEVEN(ROW())&lt;/code&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>How to install Google Chrome in Ubuntu</title>
+      <link>https://mikedixson.com/how-to-install-google-chrome-in-ubuntu/</link>
+      <pubDate>Thu, 14 Aug 2014 15:21:53 +0000</pubDate>
+      <guid>https://mikedixson.com/how-to-install-google-chrome-in-ubuntu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&#34; title=&#34;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&#34;&gt;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Windows 8 Browsers in Modern UI aka Metro Mode</title>
+      <link>https://mikedixson.com/windows-8-browsers-in-modern-ui-aka-metro-mode/</link>
+      <pubDate>Thu, 27 Jun 2013 07:30:25 +0000</pubDate>
+      <guid>https://mikedixson.com/windows-8-browsers-in-modern-ui-aka-metro-mode/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; class=&#34;alignleft size-full wp-image-263&#34; alt=&#34;browser icons&#34; src=&#34;https://mikedixson.com/wp-content/uploads/2013/06/browser-icons.jpg&#34; width=&#34;300&#34; height=&#34;150&#34; /&gt;Since getting my Nexus 10 I used my laptop less and less. It largely comes out for research activities which involve a lot of switching between apps or browser windows or typing heavy activities where a keyboard is preferable to a touch screen, and I don’t lose half the screen to the keyboard.&lt;/p&gt;&#xA;&lt;h1 id=&#34;metro-sorry-modern-ui&#34;&gt;Metro, sorry, Modern UI&lt;/h1&gt;&#xA;&lt;p&gt;I upgraded my laptop to Windows 8 not long before getting my Nexus 10. I’ve got used to most things with the Modern UI and some apps being Desktop apps, however after change Google Chrome to launch in Metro/Modern UI mode I noticed that Internet Explorer was then opening on the desktop instead of in the Modern UI. I changed this back, but then Chrome opened in Desktop mode.&lt;br&gt;&#xA;Seemingly the browser that is the default browser and opens http(s) links is the one that opens in the Modern UI.&lt;/p&gt;&#xA;&lt;h1 id=&#34;just-one-browser&#34;&gt;Just One Browser?&lt;/h1&gt;&#xA;&lt;p&gt;I’m very surprised by Microsoft to be so small minded to think that users will only use one browser and so will be happy with just one opening in Modern UI. As someone who does some web design and troubleshooting of html and css I regularly use the main four browsers. I seems my choice to have all with the same experience is to set all to open in the desktop mode. Surely that’s not what Microsoft wants.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Google Hangouts Firewall Ports</title>
+      <link>https://mikedixson.com/google-talk-firewall-ports/</link>
+      <pubDate>Wed, 16 Jan 2013 14:28:40 +0000</pubDate>
+      <guid>https://mikedixson.com/google-talk-firewall-ports/</guid>
+      <description>&lt;p&gt;Our firewall was configured as per Google’s documentation to allow the Google Hangouts nee Talk client and the Android Google Hangouts app to connect. but to no avail.&lt;br&gt;&#xA;With a little bit of troubleshooting I found that an additional port needed to be opened too. So here’s the firewall ports you need to open for Google Talk:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;80 TCP&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;443 TCP&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;19302 – 19309 TCP and UDP&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Additional Ports for various clients&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td&gt;&#xA;      Ports&#xA;    &lt;/td&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;&#xA;  Clients&#xA;&amp;lt;/td&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td&gt;&#xA;      5222, 5223, 5224&#xA;    &lt;/td&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;&#xA;  XMPP clients&#xA;&amp;lt;/td&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td&gt;&#xA;      5228 and 5229&#xA;    &lt;/td&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;&#xA;  Android phones&#xA;&amp;lt;/td&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td&gt;&#xA;      5269&#xA;    &lt;/td&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;&#xA;  XMPP federation&#xA;&amp;lt;/td&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This information was taken from  &lt;a title=&#34;Optimize your network for Hangouts&#34; href=&#34;https://support.google.com/a/answer/1279090?hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optimize your network for Hangouts &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I hope that helps some of you out there.&lt;/p&gt;&#xA;&lt;p&gt;Mike&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

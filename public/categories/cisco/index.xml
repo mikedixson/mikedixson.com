@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cisco on MikeDixson.com</title>
+    <link>https://mikedixson.com/categories/cisco/</link>
+    <description>Recent content in Cisco on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 02 Apr 2015 11:07:31 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/categories/cisco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cisco How To Find A MAC Address By IP</title>
+      <link>https://mikedixson.com/cisco-how-to-find-a-mac-address-by-ip/</link>
+      <pubDate>Thu, 02 Apr 2015 11:07:31 +0000</pubDate>
+      <guid>https://mikedixson.com/cisco-how-to-find-a-mac-address-by-ip/</guid>
+      <description>&lt;p&gt;From a switch that the device is plugged directly into (otherwise you’ll get the MAC of the next hop) first ping the IP address to ensure it’s in your ARP cache, then view the ARP cache, like so&lt;br&gt;&#xA;&lt;code&gt;ping 192.168.1.1&lt;/code&gt;&lt;br&gt;&#xA;&lt;code&gt;show ip arp | i 192.168.1.1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;The &lt;em&gt;pipe i&lt;/em&gt; just ensures you only see the info you’re after. If you’re doing this on a switch with many devices it’s handy to pear it down to just what you need.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

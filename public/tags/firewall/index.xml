@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firewall on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/firewall/</link>
+    <description>Recent content in Firewall on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 30 Apr 2015 10:41:42 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/firewall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turning the Human Firewall On – The Analogies Project</title>
+      <link>https://mikedixson.com/turning-the-human-firewall-on-the-analogies-project/</link>
+      <pubDate>Thu, 30 Apr 2015 10:41:42 +0000</pubDate>
+      <guid>https://mikedixson.com/turning-the-human-firewall-on-the-analogies-project/</guid>
+      <description>&lt;p&gt;Interesting course as part of Infosec 2015.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a title=&#34;How to Turn the Human Firewall On: Analogies Project Training Course&#34; href=&#34;http://www.infosecurityeurope.com/en/education/training/Analogies-Project/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;http://www.infosecurityeurope.com/en/education/training/Analogies-Project/&#34;&gt;http://www.infosecurityeurope.com/en/education/training/Analogies-Project/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Activating an iPhone or iPad Through a Firewall</title>
+      <link>https://mikedixson.com/activating-an-iphone-or-ipad-through-a-firewall/</link>
+      <pubDate>Wed, 29 Jan 2014 12:02:16 +0000</pubDate>
+      <guid>https://mikedixson.com/activating-an-iphone-or-ipad-through-a-firewall/</guid>
+      <description>&lt;p&gt;In order to activate an IOS device when behind a firewall allow the following traffic&lt;/p&gt;&#xA;&lt;pre&gt;https 17.149.240.70 nwk-unbrick2.apple.com&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Allowing Apple App Store Access Through a Firewall</title>
+      <link>https://mikedixson.com/allowing-apple-app-store-access-through-a-firewall/</link>
+      <pubDate>Wed, 29 Jan 2014 11:19:20 +0000</pubDate>
+      <guid>https://mikedixson.com/allowing-apple-app-store-access-through-a-firewall/</guid>
+      <description>&lt;p&gt;If you allow port 80 and 443 access out of your network then accessing the Apple App Store from behind your firewall it’s a doddle.&lt;/p&gt;&#xA;&lt;p&gt;However if you have a more locked down area of a network but have iPads etc that need App Store access here’s what you need to allow port 80 and 443 access to:&lt;/p&gt;&#xA;&lt;pre&gt;17.154.0.0/16 Apple&#39;s Class B Subnet includes phobos.apple.com address(es)&#xA;23.63.98.0/23 Akamai Technologies &lt;abbr title=&#34;Content Distribution Network&#34;&gt;CDN&lt;/abbr&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I appreciate this is a bit of a wide range of addresses, but unless you want to be having to packet capture and analyze where the App store is heading too that week it’s a reasonable. I doubt anyone would give up a class B IPv4 range nowadays.&lt;/p&gt;&#xA;&lt;p&gt;Hope that helps some of you out!&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Google Hangouts Firewall Ports</title>
+      <link>https://mikedixson.com/google-talk-firewall-ports/</link>
+      <pubDate>Wed, 16 Jan 2013 14:28:40 +0000</pubDate>
+      <guid>https://mikedixson.com/google-talk-firewall-ports/</guid>
+      <description>&lt;p&gt;Our firewall was configured as per Google’s documentation to allow the Google Hangouts nee Talk client and the Android Google Hangouts app to connect. but to no avail.&lt;br&gt;&#xA;With a little bit of troubleshooting I found that an additional port needed to be opened too. So here’s the firewall ports you need to open for Google Talk:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;80 TCP&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;443 TCP&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;19302 – 19309 TCP and UDP&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Additional Ports for various clients&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td&gt;&#xA;      Ports&#xA;    &lt;/td&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;&#xA;  Clients&#xA;&amp;lt;/td&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td&gt;&#xA;      5222, 5223, 5224&#xA;    &lt;/td&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;&#xA;  XMPP clients&#xA;&amp;lt;/td&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td&gt;&#xA;      5228 and 5229&#xA;    &lt;/td&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;&#xA;  Android phones&#xA;&amp;lt;/td&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/tr&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td&gt;&#xA;      5269&#xA;    &lt;/td&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;td&amp;gt;&#xA;  XMPP federation&#xA;&amp;lt;/td&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This information was taken from  &lt;a title=&#34;Optimize your network for Hangouts&#34; href=&#34;https://support.google.com/a/answer/1279090?hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optimize your network for Hangouts &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I hope that helps some of you out there.&lt;/p&gt;&#xA;&lt;p&gt;Mike&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Design on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/web-design/</link>
+    <description>Recent content in Web Design on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 15 Apr 2012 00:31:47 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/web-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BuddyPress – Make Your Own Social Network</title>
+      <link>https://mikedixson.com/buddypress-make-your-own-social-network/</link>
+      <pubDate>Sun, 15 Apr 2012 00:31:47 +0000</pubDate>
+      <guid>https://mikedixson.com/buddypress-make-your-own-social-network/</guid>
+      <description>&lt;p&gt;Just a quick word of warning. Don’t install BuddyPress on your main site! Install it on a dev site and develop it there.&lt;/p&gt;&#xA;&lt;p&gt;It completely wipes out your theme from what I can see. Whilst it’s great to encourage community on your own website just make sure you test your set up first before making it live.&lt;/p&gt;&#xA;&lt;p&gt;Night all!&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>I Told You A Theme Was Coming</title>
+      <link>https://mikedixson.com/i-told-you-a-theme-was-coming/</link>
+      <pubDate>Tue, 10 Apr 2012 09:33:34 +0000</pubDate>
+      <guid>https://mikedixson.com/i-told-you-a-theme-was-coming/</guid>
+      <description>&lt;p&gt;Well I did say, &lt;a href=&#34;http://mikedixson.com/2012/03/i-feel-a-theme-coming-on/&#34; title=&#34;I Feel A Theme Coming On&#34;&gt;I felt a theme coming on&lt;/a&gt;, and so tada!!! Here it is. It’s not the most widely different theme. But it’s built as a child theme on the &lt;a title=&#34;WordPress.org&#34; href=&#34;http://wordpress.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress.org&lt;/a&gt;‘s default theme. I did this for a couple of reasons. FIrstly so I could play with child themes, but mainly so that it’s sustainable. When I update the parent theme my child theme should (in theory) not need any modification in order to keep working.&lt;br&gt;&#xA;Of course I’ll test any theme updates on my staging site first to be sure of that.&lt;/p&gt;&#xA;&lt;p&gt;There was an additional bonus of using the &lt;a title=&#34;WordPress.org&#34; href=&#34;http://WordPress.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress.org&lt;/a&gt; theme. It seems to be responsive. So, with only mild aesthetic tweaking my theme also works on tablets and smart phones.&lt;/p&gt;&#xA;&lt;p&gt;I think this theme expresses a bit of my character and style and I’m very pleased with it.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>I Feel A Theme Coming On</title>
+      <link>https://mikedixson.com/i-feel-a-theme-coming-on/</link>
+      <pubDate>Mon, 26 Mar 2012 02:36:59 +0000</pubDate>
+      <guid>https://mikedixson.com/i-feel-a-theme-coming-on/</guid>
+      <description>&lt;p&gt;My brother &lt;a title=&#34;Greg Dixson&#34; href=&#34;http://gregdixson.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Greg Dixson&lt;/a&gt; has been learning &lt;strong&gt;a lot&lt;/strong&gt; about web design recently. Including how to reskin WordPress.&lt;br&gt;&#xA;He’s made impressive leaps and with just two words has opened a new world to me.  _&lt;a title=&#34;Word Press Child Themes&#34; href=&#34;http://codex.wordpress.org/Child_Themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Child Themes&lt;/a&gt; _are those two words.&lt;/p&gt;&#xA;&lt;p&gt;With Word presses child themes you can take an existing theme and hack around with it, confident that the next update from the author of that theme isn’t going to blow away all your hard work.&lt;br&gt;&#xA;So right now you are looking at my first child theme. There’s not too much tweaking so far. But this has opened me up to redesigning my site(s) again.&lt;br&gt;&#xA;I’ll make no promises about this getting done, as web design for my own pleasure get’s done in fits and starts. But hopefully this site’s style will start to grow over time.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

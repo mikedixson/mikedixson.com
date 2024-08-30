@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grep on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/grep/</link>
+    <description>Recent content in Grep on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 03 Nov 2015 17:00:17 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/grep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remove comments and empty lines with grep</title>
+      <link>https://mikedixson.com/remove-comments-and-empty-lines-with-grep/</link>
+      <pubDate>Tue, 03 Nov 2015 17:00:17 +0000</pubDate>
+      <guid>https://mikedixson.com/remove-comments-and-empty-lines-with-grep/</guid>
+      <description>&lt;p&gt;Remove comments and empty lines with grep&lt;/p&gt;&#xA;&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;grep -v -e ^# -e ^$ filename&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

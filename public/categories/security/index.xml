@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on MikeDixson.com</title>
+    <link>https://mikedixson.com/categories/security/</link>
+    <description>Recent content in Security on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 30 Apr 2015 10:41:42 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turning the Human Firewall On – The Analogies Project</title>
+      <link>https://mikedixson.com/turning-the-human-firewall-on-the-analogies-project/</link>
+      <pubDate>Thu, 30 Apr 2015 10:41:42 +0000</pubDate>
+      <guid>https://mikedixson.com/turning-the-human-firewall-on-the-analogies-project/</guid>
+      <description>&lt;p&gt;Interesting course as part of Infosec 2015.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a title=&#34;How to Turn the Human Firewall On: Analogies Project Training Course&#34; href=&#34;http://www.infosecurityeurope.com/en/education/training/Analogies-Project/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;a href=&#34;http://www.infosecurityeurope.com/en/education/training/Analogies-Project/&#34;&gt;http://www.infosecurityeurope.com/en/education/training/Analogies-Project/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Configuring Radius Authentication on Linux</title>
+      <link>https://mikedixson.com/configuring-radius-authentication-on-linux/</link>
+      <pubDate>Tue, 02 Sep 2014 08:39:39 +0000</pubDate>
+      <guid>https://mikedixson.com/configuring-radius-authentication-on-linux/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Install libpam-radius-auth&lt;br&gt;&#xA;&lt;code&gt;sudo apt-get install libpam-radius-auth&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Configure libpam-radius-auth with your radius servers and secrets&lt;br&gt;&#xA;&lt;code&gt;sudo pico /etc/pam_radius_auth.conf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Set permissions on /etc/pam_radius_auth.conf&lt;br&gt;&#xA;&lt;code&gt;sudo chmod 0600 /etc/pam_radius_auth.conf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;auth sufficient pam_radius_auth.so&lt;/code&gt; to &lt;code&gt;/etc/pam.d/login&lt;/code&gt; and then the following as desired just &lt;strong&gt;above&lt;/strong&gt; the line reading &lt;em&gt;@include common-auth&lt;/em&gt;&lt;br&gt;&#xA;&lt;code&gt;/etc/pam.d/sshd&amp;lt;br /&amp;gt; /etc/pam.d/sudo&amp;lt;br /&amp;gt; /etc/pam.d/su&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add try_first_pass to auth line in /etc/pam.d/common-auth&lt;br&gt;&#xA;&lt;code&gt;auth [success=1 default=ignore] pam_unix.so nullok_secure try_first_pass&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Make user locally with disabled password&lt;br&gt;&#xA;&lt;code&gt;sudo useradd -m USERNAME&lt;/code&gt;&lt;br&gt;&#xA;or to add a user and add to the sudo group&lt;br&gt;&#xA;&lt;code&gt;sudo useradd -m -G sudo USERNAME&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Ta Da!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The one caveat that I’ve found with this is that when logging in with local users &lt;span style=&#34;color: #000000;&#34;&gt;to the local console&lt;/span&gt; you are prompted for a password twice, this is fixed via step 5 but note that if you run pam-auth-update this change will be overwritten.&lt;/em&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Activating an iPhone or iPad Through a Firewall</title>
+      <link>https://mikedixson.com/activating-an-iphone-or-ipad-through-a-firewall/</link>
+      <pubDate>Wed, 29 Jan 2014 12:02:16 +0000</pubDate>
+      <guid>https://mikedixson.com/activating-an-iphone-or-ipad-through-a-firewall/</guid>
+      <description>&lt;p&gt;In order to activate an IOS device when behind a firewall allow the following traffic&lt;/p&gt;&#xA;&lt;pre&gt;https 17.149.240.70 nwk-unbrick2.apple.com&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Allowing Apple App Store Access Through a Firewall</title>
+      <link>https://mikedixson.com/allowing-apple-app-store-access-through-a-firewall/</link>
+      <pubDate>Wed, 29 Jan 2014 11:19:20 +0000</pubDate>
+      <guid>https://mikedixson.com/allowing-apple-app-store-access-through-a-firewall/</guid>
+      <description>&lt;p&gt;If you allow port 80 and 443 access out of your network then accessing the Apple App Store from behind your firewall it’s a doddle.&lt;/p&gt;&#xA;&lt;p&gt;However if you have a more locked down area of a network but have iPads etc that need App Store access here’s what you need to allow port 80 and 443 access to:&lt;/p&gt;&#xA;&lt;pre&gt;17.154.0.0/16 Apple&#39;s Class B Subnet includes phobos.apple.com address(es)&#xA;23.63.98.0/23 Akamai Technologies &lt;abbr title=&#34;Content Distribution Network&#34;&gt;CDN&lt;/abbr&gt;&lt;/pre&gt;&#xA;&lt;p&gt;I appreciate this is a bit of a wide range of addresses, but unless you want to be having to packet capture and analyze where the App store is heading too that week it’s a reasonable. I doubt anyone would give up a class B IPv4 range nowadays.&lt;/p&gt;&#xA;&lt;p&gt;Hope that helps some of you out!&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Mac OS X’s Hidden FTP Server</title>
+      <link>https://mikedixson.com/mac-os-xs-hidden-ftp-server/</link>
+      <pubDate>Mon, 27 Jan 2014 14:51:32 +0000</pubDate>
+      <guid>https://mikedixson.com/mac-os-xs-hidden-ftp-server/</guid>
+      <description>&lt;p&gt;Seeing as there is already the capability to run a built in ftp server on OS X why bother downloading and potentially paying for one?&lt;/p&gt;&#xA;&lt;h2 id=&#34;starting-the-os-x-ftp-server&#34;&gt;Starting the OS X FTP Server&lt;/h2&gt;&#xA;&lt;pre&gt;sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist&lt;/pre&gt;&#xA;&lt;h2 id=&#34;stopping-the-os-x-ftp-server&#34;&gt;Stopping the OS X FTP Server&lt;/h2&gt;&#xA;&lt;pre&gt;sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist&lt;/pre&gt;&#xA;&lt;p&gt;You could even easily knock up an Automator app to start and stop this (sod it I might even make one myself).&lt;/p&gt;&#xA;&lt;p&gt;Sourced from: &lt;a href=&#34;http://osxdaily.com/2011/09/29/start-an-ftp-or-sftp-server-in-mac-os-x-lion/&#34;&gt;http://osxdaily.com/2011/09/29/start-an-ftp-or-sftp-server-in-mac-os-x-lion/&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

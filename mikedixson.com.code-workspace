@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"frontMatter.dashboard.openOnStart": false
+	}
+}

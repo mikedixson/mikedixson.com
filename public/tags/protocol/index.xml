@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Protocol on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/protocol/</link>
+    <description>Recent content in Protocol on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 27 Jan 2014 14:51:32 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/protocol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac OS X’s Hidden FTP Server</title>
+      <link>https://mikedixson.com/mac-os-xs-hidden-ftp-server/</link>
+      <pubDate>Mon, 27 Jan 2014 14:51:32 +0000</pubDate>
+      <guid>https://mikedixson.com/mac-os-xs-hidden-ftp-server/</guid>
+      <description>&lt;p&gt;Seeing as there is already the capability to run a built in ftp server on OS X why bother downloading and potentially paying for one?&lt;/p&gt;&#xA;&lt;h2 id=&#34;starting-the-os-x-ftp-server&#34;&gt;Starting the OS X FTP Server&lt;/h2&gt;&#xA;&lt;pre&gt;sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist&lt;/pre&gt;&#xA;&lt;h2 id=&#34;stopping-the-os-x-ftp-server&#34;&gt;Stopping the OS X FTP Server&lt;/h2&gt;&#xA;&lt;pre&gt;sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist&lt;/pre&gt;&#xA;&lt;p&gt;You could even easily knock up an Automator app to start and stop this (sod it I might even make one myself).&lt;/p&gt;&#xA;&lt;p&gt;Sourced from: &lt;a href=&#34;http://osxdaily.com/2011/09/29/start-an-ftp-or-sftp-server-in-mac-os-x-lion/&#34;&gt;http://osxdaily.com/2011/09/29/start-an-ftp-or-sftp-server-in-mac-os-x-lion/&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

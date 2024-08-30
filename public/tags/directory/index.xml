@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Directory on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/directory/</link>
+    <description>Recent content in Directory on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 18 Dec 2015 19:03:06 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/directory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exporting Active Directory Users Into CSV</title>
+      <link>https://mikedixson.com/exporting-active-directory-users-into-csv/</link>
+      <pubDate>Fri, 18 Dec 2015 19:03:06 +0000</pubDate>
+      <guid>https://mikedixson.com/exporting-active-directory-users-into-csv/</guid>
+      <description>&lt;p&gt;It took far too long to find this very very useful command online so I thought I’d repost to help others find it.&lt;br&gt;&#xA;The below command exports as follows:&lt;br&gt;&#xA;Connection to server: domain.local&lt;br&gt;&#xA;Exporting attributes: whenChanged,whenCreated,cn,sAMAccountName,givenName,sn&lt;br&gt;&#xA;From DN Root: DC=domain,DC=local&lt;br&gt;&#xA;Into File: domain.local-users.csv&lt;br&gt;&#xA;&lt;code&gt;csvde -s domain.local -l &amp;quot;whenChanged,whenCreated,cn,sAMAccountName,givenName,sn&amp;quot; -d &amp;quot;DC=domain,DC=local&amp;quot; -f domain.local-users.csv&lt;/code&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

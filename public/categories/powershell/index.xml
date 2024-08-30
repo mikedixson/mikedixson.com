@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Powershell on MikeDixson.com</title>
+    <link>https://mikedixson.com/categories/powershell/</link>
+    <description>Recent content in Powershell on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 27 Nov 2018 13:14:06 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOLVED: Windows DHCP – Search for a MAC Address</title>
+      <link>https://mikedixson.com/windows-dhcp-search-for-a-mac-address/</link>
+      <pubDate>Tue, 27 Nov 2018 13:14:06 +0000</pubDate>
+      <guid>https://mikedixson.com/windows-dhcp-search-for-a-mac-address/</guid>
+      <description>&lt;p&gt;This is a super succinct method of finding a mac address on a Window s DHCP server: &lt;a href=&#34;https://thewayeye.net/2016/10/8/find-a-mac-microsoft-dhcp&#34;&gt;https://thewayeye.net/2016/10/8/find-a-mac-microsoft-dhcp&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre class=&#34;wp-block-code&#34;&gt;&lt;code&gt;Get-DhcpServerv4Scope | Get-DhcpServerv4Lease -EA SilentlyContinue -ClientId xx-xx-xx-xx-xx-xx&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>[Solved] WDS Driver Filters Not Working</title>
+      <link>https://mikedixson.com/solved-wds-driver-filters-not-working/</link>
+      <pubDate>Wed, 21 Mar 2018 11:32:01 +0000</pubDate>
+      <guid>https://mikedixson.com/solved-wds-driver-filters-not-working/</guid>
+      <description>&lt;p&gt;Like many people it seems I’ve been scratching my head as to why  WDS’s Driver Package Filters were not matching my hardware when imaging a machine that I’d created a driver package group for.&lt;/p&gt;&#xA;&lt;p&gt;After looking at &lt;a href=&#34;https://technet.microsoft.com/en-us/library/hh241327.aspx&#34;&gt;Greg Shields technet post&lt;/a&gt; I was convinced I just needed to grab the model name straight off of the machine type beforehand via a powershell WMI get and I’d be laughing. Alas this still did not work.&lt;/p&gt;&#xA;&lt;p&gt;I found the best way was to enable the Debug log on WDS, then pull the info directly from what WDS was seeing and use that to create the filters.&lt;br&gt;&#xA;I’ve also written a powershell script to pull the details from the debug log as otherwise it takes a fair bit of time.&lt;br&gt;&#xA;I’ve posted this here:&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/mikedixson/Get-SMBios-Strings-From-WDS&#34;&gt;https://github.com/mikedixson/Get-SMBios-Strings-From-WDS&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Powershell list all properties of an object</title>
+      <link>https://mikedixson.com/powershell-list-all-properties-of-an-object/</link>
+      <pubDate>Thu, 08 Mar 2018 09:35:22 +0000</pubDate>
+      <guid>https://mikedixson.com/powershell-list-all-properties-of-an-object/</guid>
+      <description>&lt;p&gt;Some powershell get commands only output a handful of the object properties get-CalendarProcessing being one such command, than returns just one property.&lt;/p&gt;&#xA;&lt;p&gt;To get all properties of an object you can pipe to format-list *&lt;br&gt;&#xA;&lt;code&gt;get-CalendarProcessing -identity room1@domain.com | Format-List *&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you know the specific attribute you are after you can still access this variable using select-object.&lt;br&gt;&#xA;&lt;code&gt;get-CalendarProcessing -Identity room1@domain.com | Select-Object AllowConflicts&lt;/code&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Easy GPO Audit Using Powershell</title>
+      <link>https://mikedixson.com/easy-gpo-audit-using-powershell/</link>
+      <pubDate>Wed, 03 Jan 2018 08:25:44 +0000</pubDate>
+      <guid>https://mikedixson.com/easy-gpo-audit-using-powershell/</guid>
+      <description>&lt;p&gt;After poking around the Group Policy Objects (GPO) of an infrastructure that was new to me I needed a decent way of producing a quick and useful report on the state of the GPOs.&lt;/p&gt;&#xA;&lt;p&gt;Because the ComputerVersion and UserVersion numbers are listed as two figures, one for AD and one for Sysvol just an export-csv of get-gpo left me with blank ComputerVersion and UserVersion.&lt;/p&gt;&#xA;&lt;p&gt;I found this post: &lt;a href=&#34;https://community.spiceworks.com/topic/551588-get-gpo-userversion-and-computerversion-troubles&#34;&gt;https://community.spiceworks.com/topic/551588-get-gpo-userversion-and-computerversion-troubles&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;By using the following powershell I was able to within minutes provide useful information on the state of the GPOs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;get-gpo -all | select Displayname,ID,Description,GPOStatus,CreationTime,ModificationTime,@{Label=&amp;quot;ComputerVersion&amp;quot;;Expression={$_.computer.dsversion}},@{Label=&amp;quot;UserVersion&amp;quot;;Expression={$_.user.dsversion}}| export-csv gpo-audit.csv&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;A small bit of conditional formatting later and we can see that the Domain GPO has a large amount of user setting edits and should be split into a user only GPO and a computer GPO (I won’t go into where these GPOs should be linked at this stage).&lt;a href=&#34;http://mikedixson.com/2018/01/easy-gpo-audit-using-powershell/gpo_audit_snip/&#34; rel=&#34;attachment wp-att-720&#34;&gt;&lt;br /&gt; &lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-large wp-image-720&#34; src=&#34;http://mikedixson.com/wp-content/uploads/2018/01/GPO_audit_snip-1024x128.png&#34; alt=&#34;A snipping of an excel spreadsheet with colour coding providing meaning to the figures&#34; width=&#34;604&#34; height=&#34;76&#34; srcset=&#34;https://mikedixson.com/wp-content/uploads/2018/01/GPO_audit_snip-1024x128.png 1024w, https://mikedixson.com/wp-content/uploads/2018/01/GPO_audit_snip-300x38.png 300w, https://mikedixson.com/wp-content/uploads/2018/01/GPO_audit_snip-768x96.png 768w, https://mikedixson.com/wp-content/uploads/2018/01/GPO_audit_snip.png 1111w&#34; sizes=&#34;(max-width: 604px) 100vw, 604px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.vecteezy.com/free-vector/policy&#34;&gt;Policy Vectors by Vecteezy&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

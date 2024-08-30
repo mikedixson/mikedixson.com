@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Repositories on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/repositories/</link>
+    <description>Recent content in Repositories on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 14 Aug 2014 15:21:53 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/repositories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install Google Chrome in Ubuntu</title>
+      <link>https://mikedixson.com/how-to-install-google-chrome-in-ubuntu/</link>
+      <pubDate>Thu, 14 Aug 2014 15:21:53 +0000</pubDate>
+      <guid>https://mikedixson.com/how-to-install-google-chrome-in-ubuntu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&#34; title=&#34;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&#34;&gt;http://www.howopensource.com/2011/10/install-google-chrome-in-ubuntu-11-10-11-04-10-10-10-04/&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

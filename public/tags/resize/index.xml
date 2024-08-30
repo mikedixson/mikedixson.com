@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resize on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/resize/</link>
+    <description>Recent content in Resize on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 04 Aug 2014 10:16:42 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/resize/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FIXED: Ubuntu Not Seeing More Than 2TB of a Disk</title>
+      <link>https://mikedixson.com/fixed-ubuntu-not-seeing-more-than-2tb-of-a-disk/</link>
+      <pubDate>Mon, 04 Aug 2014 10:16:42 +0000</pubDate>
+      <guid>https://mikedixson.com/fixed-ubuntu-not-seeing-more-than-2tb-of-a-disk/</guid>
+      <description>&lt;h1 id=&#34;warning-backup-your-data-before-proceeding&#34;&gt;WARNING! Backup your data before proceeding!&lt;/h1&gt;&#xA;&lt;p&gt;For me this process didn’t destroy the data. I completely expected it to, but it didn’t. Make sure you backup in case you’re not as fortunate.&lt;/p&gt;&#xA;&lt;p&gt;Move into Single Users Mode&lt;br&gt;&#xA;&lt;code&gt;sudo init 1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Unmount partition in question&lt;br&gt;&#xA;&lt;code&gt;sudo umount /mnt/disk1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Launch PartEd pointing at the disk in question&lt;br&gt;&#xA;&lt;code&gt;sudo parted /dev/sdb&amp;lt;br /&amp;gt; &lt;/code&gt;&lt;br&gt;&#xA;Make the Partition Table GPT&lt;br&gt;&#xA;&lt;code&gt;mklabel gpt&amp;lt;br /&amp;gt; &lt;/code&gt;&lt;br&gt;&#xA;Accept the warning and quit PartEd&lt;br&gt;&#xA;&lt;code&gt;Warning: The existing disk label on /dev/sdb will be destroyed and all data on this disk will be lost. Do you want to continue?&amp;lt;br /&amp;gt; Yes/No? yes&amp;lt;br /&amp;gt; (parted)&amp;lt;br /&amp;gt; quit&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Check the disk (resize2fs required this before it would resize the partition)&lt;br&gt;&#xA;&lt;code&gt;sudo e2fsck -f /dev/sdb1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Resize the partition to fill the total available disk space&lt;br&gt;&#xA;&lt;code&gt;sudo resize2fs /dev/sdb1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mount the disk again&lt;br&gt;&#xA;&lt;code&gt;sudo mount /mnt/disk1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;and-hey-presto&#34;&gt;And hey presto!&lt;/h2&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

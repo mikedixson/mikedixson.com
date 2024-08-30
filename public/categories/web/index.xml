@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on MikeDixson.com</title>
+    <link>https://mikedixson.com/categories/web/</link>
+    <description>Recent content in Web on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 30 Apr 2015 15:50:44 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP/2 Explained</title>
+      <link>https://mikedixson.com/http2-explained/</link>
+      <pubDate>Thu, 30 Apr 2015 15:50:44 +0000</pubDate>
+      <guid>https://mikedixson.com/http2-explained/</guid>
+      <description>&lt;p&gt;Explaining the methodologies implemented within HTTP/2, this is a must read for IT staff &lt;a href=&#34;http://chimera.labs.oreilly.com/books/1230000000545/ch12.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;O’Reilly Book Chapter 12 HTTP/2&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>WordPress Wrapping Long Links In CSS</title>
+      <link>https://mikedixson.com/wordpress-wrapping-long-links-in-css/</link>
+      <pubDate>Fri, 31 Oct 2014 15:07:02 +0000</pubDate>
+      <guid>https://mikedixson.com/wordpress-wrapping-long-links-in-css/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://wordpress.org/support/topic/line-break-break-long-links-word-wrap&#34;&gt;https://wordpress.org/support/topic/line-break-break-long-links-word-wrap&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre style=&#34;color: #000000; font-size: 12px; font-family: Consolas, Monaco, &#39;Courier New&#39;, Courier, monospace; background-color: #f3f3f7;&#34;&gt;&lt;code style=&#34;color: #000000; font-family: Consolas, Monaco, &#39;Courier New&#39;, Courier, monospace;&#34;&gt;* {&#xA;word-wrap: break-word;&#xA;}&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Making your website Android Web App friendly</title>
+      <link>https://mikedixson.com/making-your-website-android-web-app-friendly/</link>
+      <pubDate>Tue, 26 Aug 2014 14:34:13 +0000</pubDate>
+      <guid>https://mikedixson.com/making-your-website-android-web-app-friendly/</guid>
+      <description>&lt;p&gt;Very useful bit of info on adding a couple of lines of text to your site headers and having your webpage run app-like on Android&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developer.chrome.com/multidevice/android/installtohomescreen&#34; title=&#34;https://developer.chrome.com/multidevice/android/installtohomescreen&#34;&gt;https://developer.chrome.com/multidevice/android/installtohomescreen&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Fixed: phpMyAdmin is throwing a #2002 cannot log in to the mysql server phpmyadmin</title>
+      <link>https://mikedixson.com/fixed-phpmyadmin-is-throwing-a-2002-cannot-log-in-to-the-mysql-server-phpmyadmin/</link>
+      <pubDate>Wed, 06 Aug 2014 14:48:46 +0000</pubDate>
+      <guid>https://mikedixson.com/fixed-phpmyadmin-is-throwing-a-2002-cannot-log-in-to-the-mysql-server-phpmyadmin/</guid>
+      <description>&lt;p&gt;This one had me going round the houses a bit until I the wrong permissions confirmed something to me.&lt;br&gt;&#xA;Firstly the &lt;code&gt;/etc/phpmyadmin/config.inc.php&lt;/code&gt; file is crud. For some reason this file doesn’t resemble the actual config file that you should use.&lt;br&gt;&#xA;The file &lt;code&gt;/usr/share/phpmyadmin/config.sample.inc.php&lt;/code&gt; is the format that you need for a correct phpMyAdmin configuration, so copy it to &lt;code&gt;/etc/phpmyadmin/config.inc.php&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Next you need to edit this config file. This isn’t the hardest of the things in the world to do if you just want the basics. You just need to edit the value for &lt;code&gt;$cfg[&#39;Servers&#39;][$i][&#39;host&#39;]&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once you’ve done that you can then login to phpMyAdmin using your mySQL credentials and get started.&lt;br&gt;&#xA;It will bitch about not having the advanced features enabled. To do this follow the blog post I did at &lt;a href=&#34;http://mikedixson.com/2014/08/installing-phpmyadmin-advanced-features-on-ubuntu/&#34; title=&#34;INSTALLING PHPMYADMIN ADVANCED FEATURES ON UBUNTU&#34;&gt;INSTALLING PHPMYADMIN ADVANCED FEATURES ON UBUNTU&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Make sure you log out and back in to pick up the changes.&lt;/p&gt;&#xA;&lt;p&gt;Enjoy,&lt;br&gt;&#xA;Mike&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>INSTALLING PHPMYADMIN ADVANCED FEATURES ON UBUNTU</title>
+      <link>https://mikedixson.com/installing-phpmyadmin-advanced-features-on-ubuntu/</link>
+      <pubDate>Wed, 06 Aug 2014 14:35:25 +0000</pubDate>
+      <guid>https://mikedixson.com/installing-phpmyadmin-advanced-features-on-ubuntu/</guid>
+      <description>&lt;p&gt;Very concise and useful blog posting on the subject&lt;br&gt;&#xA;&lt;a title=&#34;INSTALLING PHPMYADMIN ADVANCED FEATURES ON UBUNTU&#34; href=&#34;http://www.pyrosoft.co.uk/blog/2008/04/30/installing-phpmyadmin-advanced-features-on-ubuntu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;INSTALLING PHPMYADMIN ADVANCED FEATURES ON UBUNTU&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Windows 8 Browsers in Modern UI aka Metro Mode</title>
+      <link>https://mikedixson.com/windows-8-browsers-in-modern-ui-aka-metro-mode/</link>
+      <pubDate>Thu, 27 Jun 2013 07:30:25 +0000</pubDate>
+      <guid>https://mikedixson.com/windows-8-browsers-in-modern-ui-aka-metro-mode/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; class=&#34;alignleft size-full wp-image-263&#34; alt=&#34;browser icons&#34; src=&#34;https://mikedixson.com/wp-content/uploads/2013/06/browser-icons.jpg&#34; width=&#34;300&#34; height=&#34;150&#34; /&gt;Since getting my Nexus 10 I used my laptop less and less. It largely comes out for research activities which involve a lot of switching between apps or browser windows or typing heavy activities where a keyboard is preferable to a touch screen, and I don’t lose half the screen to the keyboard.&lt;/p&gt;&#xA;&lt;h1 id=&#34;metro-sorry-modern-ui&#34;&gt;Metro, sorry, Modern UI&lt;/h1&gt;&#xA;&lt;p&gt;I upgraded my laptop to Windows 8 not long before getting my Nexus 10. I’ve got used to most things with the Modern UI and some apps being Desktop apps, however after change Google Chrome to launch in Metro/Modern UI mode I noticed that Internet Explorer was then opening on the desktop instead of in the Modern UI. I changed this back, but then Chrome opened in Desktop mode.&lt;br&gt;&#xA;Seemingly the browser that is the default browser and opens http(s) links is the one that opens in the Modern UI.&lt;/p&gt;&#xA;&lt;h1 id=&#34;just-one-browser&#34;&gt;Just One Browser?&lt;/h1&gt;&#xA;&lt;p&gt;I’m very surprised by Microsoft to be so small minded to think that users will only use one browser and so will be happy with just one opening in Modern UI. As someone who does some web design and troubleshooting of html and css I regularly use the main four browsers. I seems my choice to have all with the same experience is to set all to open in the desktop mode. Surely that’s not what Microsoft wants.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Windows 8 Metro UI Pushable Button in CSS</title>
+      <link>https://mikedixson.com/windows-8-metro-ui-pushable-button-in-css/</link>
+      <pubDate>Tue, 18 Jun 2013 14:45:12 +0000</pubDate>
+      <guid>https://mikedixson.com/windows-8-metro-ui-pushable-button-in-css/</guid>
+      <description>&lt;p&gt;I recently had a request to make a big green button, I decided to steer clear of skeuomorphism and to go with a flat clear design. As such I thought I’d ape the design of the Metro UI used on Windows Phones.&lt;/p&gt;&#xA;&lt;p&gt;Here’s a link to the code I pulled together from various bits of the interweb.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://jsfiddle.net/kEpj7/&#34;&gt;http://jsfiddle.net/kEpj7/&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>MacDonald’s Nutritional Information in a Spreadsheet</title>
+      <link>https://mikedixson.com/macdonalds-nutritional-information-in-a-spreadsheet/</link>
+      <pubDate>Sat, 11 May 2013 19:47:56 +0000</pubDate>
+      <guid>https://mikedixson.com/macdonalds-nutritional-information-in-a-spreadsheet/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mikedixson.com/wp-content/uploads/2013/05/macdonaldschips.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; class=&#34;aligncenter size-thumbnail wp-image-209&#34; alt=&#34;macdonalds chips&#34; src=&#34;http://mikedixson.com/wp-content/uploads/2013/05/macdonaldschips-150x150.jpg&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I always like reading the stats on the back of the place mat in MacDonald’s and I’m always amazed at how many calories there are in each and fat and so on. But I wanted to be able to sort these statistics as I liked to be able to compare and, hopefully, make better choices when I did wander into the fast food establishment.&lt;/p&gt;&#xA;&lt;p&gt;So I’ve begun work on a spreadsheet. I figured I’d make it a globally editable Google Doc, so that I could enter the stats and let the world at large keep the document up to date too.&lt;br&gt;&#xA;So here’s my spreadsheet, literally a work in progress as I’m adding rows now.&lt;br&gt;&#xA;&lt;a title=&#34;MacDonald&#39;s UK Nutritional Information Spreadsheet&#34; href=&#34;https://docs.google.com/spreadsheet/ccc?key=0AmAy4C-fRammdFJtQ0MtRHMtbEdoZGprNnM2X1dzTlE&amp;usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MacDonald’s UK Nutritional Information Spreadsheet&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Please feel free to add data to the spreadsheet and update it accordingly. &lt;em&gt;Note that these stats are for the UK portions of MacDonald’s.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>BuddyPress – Make Your Own Social Network</title>
+      <link>https://mikedixson.com/buddypress-make-your-own-social-network/</link>
+      <pubDate>Sun, 15 Apr 2012 00:31:47 +0000</pubDate>
+      <guid>https://mikedixson.com/buddypress-make-your-own-social-network/</guid>
+      <description>&lt;p&gt;Just a quick word of warning. Don’t install BuddyPress on your main site! Install it on a dev site and develop it there.&lt;/p&gt;&#xA;&lt;p&gt;It completely wipes out your theme from what I can see. Whilst it’s great to encourage community on your own website just make sure you test your set up first before making it live.&lt;/p&gt;&#xA;&lt;p&gt;Night all!&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>What makes for a great blog post?</title>
+      <link>https://mikedixson.com/what-make-for-a-great-blog-post/</link>
+      <pubDate>Wed, 11 Apr 2012 23:36:37 +0000</pubDate>
+      <guid>https://mikedixson.com/what-make-for-a-great-blog-post/</guid>
+      <description>&lt;p&gt;I’ve been watching the stats lately on my blog. Always happy to see visitors, and hopeful that what I write is useful to people.&lt;/p&gt;&#xA;&lt;p&gt;I got to thinking and a few google searches later leave me thinking that it’s nothing I didn’t know already.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-make-text-scannable&#34;&gt;1. Make text scannable&lt;/h2&gt;&#xA;&lt;p&gt;Not just to search engines, but most importantly the human eye. I always think newspapers are a great example of this. Headlines grab your attention and dangle their bait in front of you luring you into read the story.&lt;/p&gt;&#xA;&lt;p&gt;Using paragraphs and white space to break up the text well is another good tip, and another one well employed by newspapers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-say-something-interesting&#34;&gt;2. Say something interesting&lt;/h2&gt;&#xA;&lt;p&gt;This is so obvious it’s obscene. If you’re not saying anything anyone wants to hear then why would anyone listen?&lt;/p&gt;&#xA;&lt;h2 id=&#34;3-speak-to-your-audience&#34;&gt;3. Speak to your audience&lt;/h2&gt;&#xA;&lt;p&gt;This bit is maybe the hardest. Whilst I know who is most likely to read this at the moment, whilst it’s in it’s infancy, I hope to speak to a wider community.&lt;br&gt;&#xA;I don’t really want to prescribe that but I guess I have to in a way so I’m speaking to you in the right way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;4-use-lists&#34;&gt;4. Use Lists&lt;/h2&gt;&#xA;&lt;p&gt;Who doesn’t love a list? High Fidelity’s Top 5 lists running throughout the film, the charts, your todo list. You might hate all the todos but having them in a list is your way to tame the those beasts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;5-use-pictures&#34;&gt;5. Use Pictures&lt;/h2&gt;&#xA;&lt;p&gt;Pictures scan well, grab attention quickly and add some eye candy that text just can’t cut. Often a photo can sum up a story quicker and give the reader more than you can say in a 1000 words.&lt;/p&gt;&#xA;&lt;h2 id=&#34;6-keep-it-short&#34;&gt;6. Keep it short&lt;/h2&gt;&#xA;&lt;p&gt;Short and concise.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>YAB – Yet Another Blog?</title>
+      <link>https://mikedixson.com/yab/</link>
+      <pubDate>Mon, 26 Mar 2012 00:45:08 +0000</pubDate>
+      <guid>https://mikedixson.com/yab/</guid>
+      <description>&lt;p&gt;Hi all,&lt;/p&gt;&#xA;&lt;p&gt;Well my personal home page has been something of a holding page for over a year now. A sort of Internet business card to point people to all the other places they can reach me.&lt;/p&gt;&#xA;&lt;p&gt;I have a couple of blogs, I don’t post that frequently and they barely make a blip on the Internet, but I keep plodding away with them none the less. But they have a specific purpose. They are not me, about me, things I’ve been up to or anything like that. They are very specific.&lt;/p&gt;&#xA;&lt;p&gt;So I’ve decided to take the plunge with using my Mike Dixson domain as a place to collate my public persona blogging. So here you might see personal blog posts, photo posts, links I want to share. Using &lt;a href=&#34;https://www.ifttt.com&#34;&gt;www.ifttt.com&lt;/a&gt; I should be able to nicely pull content into here from other sources and colour it somewhat with more personal blog posts. Hopefully they’ll be of some use to someone. Who knows!!&lt;/p&gt;&#xA;&lt;p&gt;Anyway, I’m still ironing out the kinks at the change in design so I’ll continue to crack on with that. For now please take a look at my About page and the social networking links at the bottom of the page.&lt;/p&gt;&#xA;&lt;p&gt;Thanks&lt;br&gt;&#xA;Mike&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

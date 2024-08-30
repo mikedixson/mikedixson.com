@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Su on MikeDixson.com</title>
+    <link>https://mikedixson.com/tags/su/</link>
+    <description>Recent content in Su on MikeDixson.com</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 02 Sep 2014 08:39:39 +0000</lastBuildDate>
+    <atom:link href="https://mikedixson.com/tags/su/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuring Radius Authentication on Linux</title>
+      <link>https://mikedixson.com/configuring-radius-authentication-on-linux/</link>
+      <pubDate>Tue, 02 Sep 2014 08:39:39 +0000</pubDate>
+      <guid>https://mikedixson.com/configuring-radius-authentication-on-linux/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Install libpam-radius-auth&lt;br&gt;&#xA;&lt;code&gt;sudo apt-get install libpam-radius-auth&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Configure libpam-radius-auth with your radius servers and secrets&lt;br&gt;&#xA;&lt;code&gt;sudo pico /etc/pam_radius_auth.conf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Set permissions on /etc/pam_radius_auth.conf&lt;br&gt;&#xA;&lt;code&gt;sudo chmod 0600 /etc/pam_radius_auth.conf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;auth sufficient pam_radius_auth.so&lt;/code&gt; to &lt;code&gt;/etc/pam.d/login&lt;/code&gt; and then the following as desired just &lt;strong&gt;above&lt;/strong&gt; the line reading &lt;em&gt;@include common-auth&lt;/em&gt;&lt;br&gt;&#xA;&lt;code&gt;/etc/pam.d/sshd&amp;lt;br /&amp;gt; /etc/pam.d/sudo&amp;lt;br /&amp;gt; /etc/pam.d/su&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add try_first_pass to auth line in /etc/pam.d/common-auth&lt;br&gt;&#xA;&lt;code&gt;auth [success=1 default=ignore] pam_unix.so nullok_secure try_first_pass&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Make user locally with disabled password&lt;br&gt;&#xA;&lt;code&gt;sudo useradd -m USERNAME&lt;/code&gt;&lt;br&gt;&#xA;or to add a user and add to the sudo group&lt;br&gt;&#xA;&lt;code&gt;sudo useradd -m -G sudo USERNAME&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Ta Da!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The one caveat that I’ve found with this is that when logging in with local users &lt;span style=&#34;color: #000000;&#34;&gt;to the local console&lt;/span&gt; you are prompted for a password twice, this is fixed via step 5 but note that if you run pam-auth-update this change will be overwritten.&lt;/em&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>
