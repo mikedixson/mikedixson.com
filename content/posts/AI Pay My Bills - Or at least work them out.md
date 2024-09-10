@@ -1,18 +1,23 @@
 ---
-
 title: "AI Pay My Bills: A Quick and Easy Lifehack for Splitting Receipts"
-description: "Learn how to effortlessly split restaurant bills using Google Lens and ChatGPT's mobile app. A simple lifehack to make dining out with friends and family stress-free."
+description: Learn how to effortlessly split restaurant bills using Google Lens and ChatGPT's mobile app. A simple lifehack to make dining out with friends and family stress-free.
 date: 2024-08-30T23:32:34.686Z
-preview: "/images/ai-bills.jpeg"
+preview: /images/ai-bills (Small).jpeg
 draft: false
-tags: [AI, lifehack, technology, bill-splitting, mobile-apps]
-categories: [lifehack, technology]
-author: "Mike Dixson"
+tags:
+    - AI
+    - lifehack
+    - technology
+    - bill-splitting
+    - mobile-apps
+categories:
+    - lifehack
+    - technology
+author: Mike Dixson
 type: featured
-excerpt: "Discover a practical lifehack for splitting restaurant bills with ease using Google Lens and ChatGPT's mobile app. Perfect for group dining scenarios."
-url: "ai-bill-splitting-lifehack"
-image: "/images/ai-bills.jpeg"
-
+excerpt: Discover a practical lifehack for splitting restaurant bills with ease using Google Lens and ChatGPT's mobile app. Perfect for group dining scenarios.
+url: ai-bill-splitting-lifehack
+image: /images/ai-bills.jpeg
 ---
 
 ### AI Pay My Bills - Or at Least Work Them Out
