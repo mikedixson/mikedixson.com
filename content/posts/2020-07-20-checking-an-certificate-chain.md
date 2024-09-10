@@ -1,7 +1,7 @@
 ---
 title: Checking an Certificate Chain
 author: Mike
-type: featured
+type: post
 date: 2020-07-20T15:05:16+00:00
 url: /checking-an-certificate-chain/
 image: /images/featured-post/security.png

@@ -8,7 +8,7 @@ draft: false
 tags: [AI, lifehack, technology, bill-splitting, mobile-apps]
 categories: [lifehack, technology]
 author: "Mike Dixson"
-type: post
+type: featured
 excerpt: "Discover a practical lifehack for splitting restaurant bills with ease using Google Lens and ChatGPT's mobile app. Perfect for group dining scenarios."
 url: "ai-bill-splitting-lifehack"
 image: "/images/ai-bills.jpeg"
