@@ -5,7 +5,9 @@ type: post
 date: 2012-11-30T10:45:36+00:00
 url: /the-olympic-torch-and-i/
 categories:
+  - Blogging
   - Personal
+  - Life Experiences
 tags:
   - alumni
   - design
@@ -13,7 +15,7 @@ tags:
   - Ravensbourne
   - torch
 format: image
-
+preview: /images/london-2012-olympic-torch (Phone).jpg
 ---
 [<img src="/wp-content/uploads/2012/11/20121130-104119.jpg" alt="20121130-104119.jpg" class="alignnone size-full" />][1]
 
