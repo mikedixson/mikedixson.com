@@ -1,7 +1,7 @@
 ---
 title: Copying a Sharepoint Page To Another Site
 author: Mike
-type: featured
+type: post
 description: Copying a Sharepoint Page To Another Site should be this much of a pain
 date: 2023-07-18T15:03:04.298Z
 preview: /images/People_moving_to_new_office_illustration_concept_vector.png

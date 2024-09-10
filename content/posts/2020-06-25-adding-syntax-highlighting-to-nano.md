@@ -1,7 +1,7 @@
 ---
 title: Adding Syntax Highlighting To Nano
 image: /images/featured-post/coding.png
-type: featured
+type: post
 author: Mike
 categories:
   - Tech Solutions

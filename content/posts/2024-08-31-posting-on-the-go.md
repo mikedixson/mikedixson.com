@@ -5,27 +5,27 @@ date: 2024-09-08T11:46:45.255Z
 preview: /images/Designer (1).png
 draft: false
 tags:
-    - Blogging
-    - Deployment
-    - GitHub Actions
-    - Hugo
-    - Markdown
-    - Mobile
-    - S3
-    - Workflow
+  - Blogging
+  - Deployment
+  - GitHub Actions
+  - Hugo
+  - Markdown
+  - Mobile
+  - S3
+  - Workflow
 categories:
-    - |-
-      - Technology
-      - Blogging
-      - Hugo
-      - Github Action
-      - Mobile Development
+  - |-
+    - Technology
+    - Blogging
+    - Hugo
+    - Github Action
+    - Mobile Development
 author: Mike Dixson
-type: default
+type: featured
 excerpt: |-
-    After getting the site back up I made a blog post about my use of AI/ML. 
+  After getting the site back up I made a blog post about my use of AI/ML. 
 
-    It got me thinking I'd like to be able to  work on posts whenever the ideas come to me, including when out and about.
+  It got me thinking I'd like to be able to  work on posts whenever the ideas come to me, including when out and about.
 url: ""
 image: /images/Designer (1).png
 ---
