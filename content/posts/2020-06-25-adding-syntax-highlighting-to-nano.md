@@ -4,6 +4,7 @@ image: /images/featured-post/coding.png
 type: post
 author: Mike
 categories:
+  - How To
   - Tech Solutions
 slug: adding-syntax-highlighting-nano
 date: 2020-06-25T15:05:16+00:00

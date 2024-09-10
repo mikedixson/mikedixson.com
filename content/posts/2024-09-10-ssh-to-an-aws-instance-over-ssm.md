@@ -5,12 +5,13 @@ date: 2024-09-10T22:09:05.453Z
 preview: /images/ssh terminal-lrg (Small).png
 draft: false
 tags:
-    - aws
-    - ssh
-    - powershell
+  - aws
+  - ssh
+  - powershell
 categories:
-    - AWS
-    - Security
+  - AWS
+  - How To
+  - Security
 author: Mike Dixson
 type: featured
 excerpt: While you can use an SSH proxy command to connect over SSM to your AWS EC2 instances, you lose the ability to log the session properly

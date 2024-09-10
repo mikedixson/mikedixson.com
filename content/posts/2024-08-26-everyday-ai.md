@@ -5,31 +5,33 @@ date: 2024-08-27T13:04:16.366Z
 preview: /images/_a14e4e69-3e7e-4090-8c98-49892ffc8d93.jpeg
 draft: false
 tags:
-    - Artificial Intelligence
-    - AWS
-    - Code Generation
-    - Code Troubleshooting
-    - Everyday AI
-    - Image Generation
-    - IT
-    - Machine Learning
-    - Meta Search
-    - Prompt Techniques
+  - Artificial Intelligence
+  - AWS
+  - Code Generation
+  - Code Troubleshooting
+  - Everyday AI
+  - Image Generation
+  - IT
+  - Machine Learning
+  - Meta Search
+  - Prompt Techniques
 categories:
-    - Artificial Intelligence
-    - Everyday AI
-    - IT
-    - Machine Learning
-    - Technology
+  - Artificial Intelligence
+  - Everyday AI
+  - IT
+  - Lifehacks
+  - Machine Learning
+  - Modern Living
+  - Technology
 author: Mike Dixson
 type: featured
 excerpt: I'm often on the cutting edge of technology and constantly trying to stay ahead of new technology
 url: ""
 image: /images/_a14e4e69-3e7e-4090-8c98-49892ffc8d93.jpeg
 keywords:
-    - AI
-    - Artificial Intelligence
-    - Machine Learning
+  - AI
+  - Artificial Intelligence
+  - Machine Learning
 slug: everyday-ai-ml-artificial-intelligence-machine-learning
 ---
 

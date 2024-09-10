@@ -14,12 +14,11 @@ tags:
   - S3
   - Workflow
 categories:
-  - |-
-    - Technology
-    - Blogging
-    - Hugo
-    - Github Action
-    - Mobile Development
+  - Blogging
+  - CICD
+  - How To
+  - Hugo
+  - Technology
 author: Mike Dixson
 type: featured
 excerpt: |-

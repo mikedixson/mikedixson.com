@@ -11,6 +11,7 @@ tags:
   - Microsoft365
   - PowerAutomate
 categories:
+  - How To
   - Tech Solutions
 excerpt: A Power Automate Flow to Copy a Sharepoint page to another site
 url: /Copying-a-Sharepoint-Page-To-Another-Site/

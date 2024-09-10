@@ -6,8 +6,8 @@ date: 2020-07-20T15:05:16+00:00
 url: /checking-an-certificate-chain/
 image: /images/featured-post/security.png
 categories:
+  - How To
   - Tech Solutions
-
 ---
 Use the following one liner to check the a certificate chain in detail:
 
