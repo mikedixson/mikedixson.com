@@ -80,5 +80,12 @@
       "title": "posts",
       "path": "[[workspace]]/content/posts"
     }
-  ]
+  ],
+  "frontMatter.content.snippets": {
+    "Media Snippet": {
+      "description": "",
+      "body": "<img src=\"[[&mediaUrl]]\" alt=\"[[alt]]\" width=\"[[mediaHeight]]\" height=\"[[mediaWidth]]\" title=\"[[title]]\">",
+      "isMediaSnippet": true
+    }
+  }
 }
