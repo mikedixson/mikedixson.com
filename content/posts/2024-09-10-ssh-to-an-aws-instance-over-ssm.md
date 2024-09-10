@@ -16,6 +16,7 @@ type: featured
 excerpt: While you can use an SSH proxy command to connect over SSM to your AWS EC2 instances, you lose the ability to log the session properly
 url: ""
 image: /images/ssh terminal-sm.png
+slug: ssh-aws-instance-ssm
 ---
 
 ## The problem with SSHing to EC2 Instances
