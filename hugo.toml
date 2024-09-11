@@ -6,7 +6,7 @@ languageCode = "en-gb"
 title = "MikeDixson.com"
 theme = "parsa-hugo"
 summaryLength = "8"
-paginate = 8
+paginate = 20
 # google analytics
 googleAnalytics = "UA-9565268-4" # example : UA-123-45
 canonifyURLs = true
@@ -87,7 +87,7 @@ home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "1"
 # Meta data
-description = "This is meta description"
+description = "A life hack and technology blog by Mike Dixson"
 # Preloader
 preloader = true
 # search
@@ -105,6 +105,9 @@ contact_form_action = "#"
 # copyright
 copyright = "Copyright &copy; 2020 a theme by [themefisher.com](https://themefisher.com)"
 
+[taxonomies]
+  category = "categories"
+
 # Instagram feed
 [params.instafeed]
 enable = true
@@ -112,8 +115,8 @@ access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1Nmpx
 
 # cookies
 [params.cookies]
-enable = true
-expire_days = 5
+enable = false
+expire_days = 7
 
 # social site
 [[params.social]]
@@ -139,7 +142,7 @@ disqusShortname = 'mikedixson'
 # By default, files are uploaded in an arbitrary order.
 # Files that match the regular expressions in the "Order" list
 # will be uploaded first, in the listed order.
-order = [".jpg$", ".gif$"]
+order = [".webp$", ".jpg$", ".gif$"]
 
 
 [[deployment.targets]]
