@@ -4,3 +4,4 @@
 hugo.exe
 hugo.linux
 hugo.darwin
+node_modules/

@@ -2,7 +2,7 @@
 title: Posting on the go with Hugo
 description: "With Front Matter CMS, publish your blog post anytime, anywhere! Learn how to write and deploy blog posts with ease using Github Actions and Hugo. Let your ideas flow while on the move. Check out the step-by-step guide. #blogging #Hugo #GithubActions"
 date: 2024-09-08T11:46:45.255Z
-preview: /images/Designer (1).png
+preview: /images/Designer (1).webp
 draft: false
 tags:
   - Blogging
@@ -26,7 +26,8 @@ excerpt: |-
 
   It got me thinking I'd like to be able to  work on posts whenever the ideas come to me, including when out and about.
 url: ""
-image: /images/Designer (1).png
+image: /images/Designer (1)_thumbnail.webp
+slug: posting-hugo
 ---
 It's been on my Todo list to give my site some attention for a while, and Google moving my DNS hosting to square space, who don't support a cname on the naked domain (i.e. mikedixson.com ) meant the site went down, which gave me the kick up the bum I needed. 
 

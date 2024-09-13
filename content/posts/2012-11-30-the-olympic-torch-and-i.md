@@ -16,6 +16,7 @@ tags:
   - torch
 format: image
 preview: /images/london-2012-olympic-torch (Phone).jpg
+slug: olympic-torch
 ---
 [<img src="/wp-content/uploads/2012/11/20121130-104119.jpg" alt="20121130-104119.jpg" class="alignnone size-full" />][1]
 

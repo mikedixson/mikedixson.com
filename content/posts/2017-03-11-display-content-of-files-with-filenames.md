@@ -13,8 +13,9 @@ tags:
   - files
   - linux
   - tail
-preview: /images/Computer Terminal (1).png
-image: /images/Computer Terminal (1).png
+preview: /images/Computer Terminal (1).webp
+image: /images/Computer Terminal (1)_thumbnail.webp
+slug: display-content-files-filenames
 ---
 Use the following linux command to display the contents of several files with their filenames prefixed.
 

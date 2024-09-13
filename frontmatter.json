@@ -96,5 +96,37 @@
       "body": "<img src=\"[[&mediaUrl]]\" alt=\"[[alt]]\" width=\"[[mediaHeight]]\" height=\"[[mediaWidth]]\" title=\"[[title]]\">",
       "isMediaSnippet": true
     }
-  }
+  },
+  "frontMatter.custom.scripts": [
+    {
+      "title": "Optimize image",
+      "script": "./scripts/optimize-image.mjs",
+      "command": "node.exe",
+      "type": "mediaFile"
+    },
+    {
+      "title": "Convert image to webp",
+      "script": "./scripts/convert-image-to-webp.mjs",
+      "command": "node.exe",
+      "type": "mediaFile"
+    },
+    {
+      "title": "Share blog post",
+      "script": "./scripts/share.mjs",
+      "command": "node.exe",
+      "type": "content"
+    },
+    {
+      "title": "Make thumbnail",
+      "script": "./scripts/make-thumbnail.mjs",
+      "command": "node.exe",
+      "type": "mediaFile"
+    },
+    {
+      "title": "Make Thumbnail and Update All References",
+      "script": "./scripts/make-thumbnail-update-all-references.mjs",
+      "command": "node.exe",
+      "type": "mediaFile"
+    }
+  ]
 }
