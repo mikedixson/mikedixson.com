@@ -20,7 +20,8 @@ author: Mike Dixson
 type: featured
 excerpt: Discover a practical lifehack for splitting restaurant bills with ease using Google Lens and ChatGPT's mobile app. Perfect for group dining scenarios.
 url: ai-bill-splitting-lifehack
-image: /images/ai-bills.jpeg
+image: /images/ai-bills_thumbnail.jpeg
+slug: ai-pay-bills-quick-easy-lifehack-splitting-receipts
 ---
 
 ### AI Pay My Bills - Or at Least Work Them Out
