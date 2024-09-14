@@ -3,12 +3,14 @@ title: About
 author: Mike
 type: page
 date: 2010-06-10T20:43:16+00:00
-image: /wp-content/uploads/2012/03/cropped-Mike-5917.jpg
-
+image: /images/Mike LED Light Shoot-_MG_2459-20220508-banner.webp
+preview: /images/Mike LED Light Shoot-_MG_2459-20220508.webp
 ---
 ### Work
 
 I work as an Infrastructure Engineer for an AdTech company.
+
+I use cloud infrastructure to deliver innovative solutions to grow and support our business.
 
 #### Personal
 
