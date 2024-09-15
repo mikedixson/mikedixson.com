@@ -95,6 +95,17 @@
       "description": "",
       "body": "<img src=\"[[&mediaUrl]]\" alt=\"[[alt]]\" width=\"[[mediaHeight]]\" height=\"[[mediaWidth]]\" title=\"[[title]]\">",
       "isMediaSnippet": true
+    },
+    "Prompt to create cover images": {
+      "description": "",
+      "body": [
+        "Create a modern flat style illustration of an office environment. Use a limited color palette featuring purples, yellows, whites, and greys. .......",
+        "",
+        "Colour Changable:",
+        "Create a modern flat style illustration of an office environment. Use a limited color palette featuring Main Color of pink, and Complementary Color 1, Neutral Color 1, and Neutral Color 2. Include 3 versions of the same character, one younger, one middle-aged, and one older. Make the people all the same gender and race as each other. They are versions of the same person.",
+        "You decide the complimentary and neutral colors based on the main color."
+      ],
+      "fields": []
     }
   },
   "frontMatter.custom.scripts": [
