@@ -10,7 +10,7 @@ import sharp from 'sharp';
   }
 
   const imagePath = mediaScriptArgs.mediaPath;
-  const thumbnailSize = 250; // Desired thumbnail size for the shortest side
+  const thumbnailSize = 412; // Desired thumbnail size for the shortest side
 
   let image = sharp(imagePath);
   const extension = imagePath.split(`.`).pop();
