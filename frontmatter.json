@@ -95,6 +95,11 @@
       "description": "",
       "body": "<img src=\"[[&mediaUrl]]\" alt=\"[[alt]]\" width=\"[[mediaHeight]]\" height=\"[[mediaWidth]]\" title=\"[[title]]\">",
       "isMediaSnippet": true
+    },
+    "Prompt to create cover images": {
+      "description": "",
+      "body": "Create a modern flat style illustration of an office environment. Use a limited color palette featuring purples, yellows, whites, and greys. .......",
+      "fields": []
     }
   },
   "frontMatter.custom.scripts": [
