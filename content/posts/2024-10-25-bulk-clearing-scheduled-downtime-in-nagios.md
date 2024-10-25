@@ -1,25 +1,25 @@
 ---
 title: Bulk Clearing Scheduled Downtime in Nagios
 description: It's a pain to clear Nagios scheduled downtime via the web console for many services. This bash script clears them all for you.
-date: 2024-10-25T11:41:07.210Z
+date: 2024-10-25T12:20:15.767Z
 preview: /images/Nagios Scheduled Downtime.webp
-draft: true
+draft: false
 tags: []
 categories:
-    - Tech Solutions
+  - Tech Solutions
 author: Mike Dixson
-type: "post"
+type: post
 excerpt: |-
-    When you schedule downtime for all services of a host, there's a Nagios button for that. But not for removing scheduled downtime.
-    I've created a bash script to clear the scheduled downtime for the services and host
+  When you schedule downtime for all services of a host, there's a Nagios button for that. But not for removing scheduled downtime.
+  I've created a bash script to clear the scheduled downtime for the services and host
 url: ""
 image: /images/Nagios Scheduled Downtime_thumbnail.webp
 format: ""
 keywords:
-    - downtime
-    - nagios
-    - scheduled downtime
-    - nagios.cmd
+  - downtime
+  - nagios
+  - scheduled downtime
+  - nagios.cmd
 slug: bulk-clearing-scheduled-downtime-nagios
 ---
 # The problem with removing Nagios scheduled downtime
