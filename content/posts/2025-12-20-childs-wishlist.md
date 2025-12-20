@@ -24,13 +24,11 @@ url: "/childs-wishlist/"
 
 # Art & Creativity Gifts
 
-### Real Photo Reference Resources (Great for Realistic Drawing)
+<!-- ### Real Photo Reference Resources (Great for Realistic Drawing) -->
 
-- [Draw Paint Academy – Reference Photo Library](https://drawpaintacademy.com/reference-photo-library/) - **~£30** - **Lifetime** access to a beautiful curated library with 2,500+ real photos taken by an artist, perfect for drawing practice and realism.
+<!-- - [Draw Paint Academy – Reference Photo Library](https://drawpaintacademy.com/reference-photo-library/) - **~£30** - **Lifetime** access to a beautiful curated library with 2,500+ real photos taken by an artist, perfect for drawing practice and realism. -->
 
-- [ArtStation/RefCraft Pose Reference Packs](https://www.refcraft.com/store) - **£8–£28** - Themed reference image packs (portraits, lighting, figure poses) — mix and match to build a complete reference library.
-
-- [PoseSpace Photo References](https://posespace.com/pose-reference/) - **Free & Paid Options** - Hundreds of figure drawing photo poses available in both free and paid tiers.
+<!-- - [PoseSpace Photo References](https://posespace.com/pose-reference/) - **Free & Paid Options** - Hundreds of figure drawing photo poses available in both free and paid tiers. -->
 
 ### Tablet & Drawing Accessories
 
