@@ -185,7 +185,7 @@ Drivers are a common source of stability issues. Here's how to spot them:
 
 Don't wait for problems to occur:
 - **Check it weekly** to catch issues before they become critical
-- **Before major updates** - note your stability index for comparison
+- **Before major updates** - note your stability index for comparison (such as Windows feature updates or major version upgrades)
 - **After installing new software** - verify it doesn't cause stability issues
 
 ### Combining with Other Tools
@@ -239,7 +239,7 @@ You can save reliability information for reference or when seeking help:
 
 **Solution:**
 - Run Windows Memory Diagnostic
-- Execute `sfc /scannow` from elevated command prompt
+- Execute `sfc /scannow` from an elevated Command Prompt (right-click Command Prompt and select "Run as administrator")
 - Check temperature with hardware monitoring tools
 - Run a full antivirus scan
 
